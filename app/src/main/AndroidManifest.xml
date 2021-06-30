@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ir.fararayaneh.erp">
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="true" /> <!-- also for record audio -->
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="true" />
+    <uses-feature
+        android:name="android.software.webview"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- for record audio -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:configChanges="uiMode"
+        android:icon="@drawable/erp"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/erp"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Launcher"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup"
+        tools:targetApi="q">
+        <activity android:name=".activities.itruducer_act.IntroHelp"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.splash.SplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.configs.ConfigsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activities.weighing.WeighingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.update_tables.UpdateTablesActivity"
+            android:screenOrientation="portrait" /> <!-- for prevent from error : inflating class fragment com.google.android.gms.maps.supportmapfragment -->
+        <!-- ************************************************************************************ -->
+        <activity
+            android:name=".activities.warehouse_handling.WarehouseHandlingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.map.MapsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.time.TimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.task.TaskActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.attach_provider.AttachProviderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.barcode_scanner.BarCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.report.ReportsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.sync_act.SyncActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.chat_list.ChatListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activities.fuel_process.FuelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.chat_message.MessageActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activities.attach_albom.AttachAlbumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.select_activity.SelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.good_for_good_trans.GoodForGoodTrans"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.good_trance.GoodTranceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.search.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.web_activity.WebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.time_filter.TimeFilterActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="034b7d9d12492caa454317a66ca0d8974d94e47e" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="1000" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="ir.fararayaneh.erp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths"
+                tools:replace="android:resource" />
+        </provider>
+
+        <service android:name=".services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".services.SocketService"
+            android:exported="false" />
+        <service
+            android:name=".services.DownLoadAPKForGroundService"
+            android:exported="false" />
+        <service
+            android:name=".services.UploadFileForeGroundService"
+            android:exported="false" />
+        <service
+            android:name=".services.EvacuatePacketForeGroundService"
+            android:exported="false" />
+        <service
+            android:name=".services.LiveLocationForeGroundService"
+            android:exported="false"/>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

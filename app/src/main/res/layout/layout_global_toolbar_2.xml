@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/constraint_layout_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        style="@style/card_view_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_view_corner2"
+        app:cardElevation="@dimen/card_view_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/global_toolbar_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:theme="@style/toolbar_style">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/constraint_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_filter_toolbar_2"
+                    style="@style/img_style"
+                    android:layout_width="@dimen/toolbar_image_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/toolbar_image_start_margin"
+                    android:scaleType="centerInside"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.08"
+                    app:srcCompat="@drawable/ic_filters_white" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_global_toolbar_2"
+                    style="@style/img_style0"
+                    android:layout_width="@dimen/toolbar_image_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/toolbar_image_width"
+                    android:padding="1dp"
+                    android:scaleType="center"
+                    app:layout_constraintEnd_toStartOf="@+id/img_filter_toolbar_2"
+                    app:layout_constraintTop_toTopOf="@+id/img_filter_toolbar_2"
+                    app:layout_constraintWidth_percent="0.08"
+                    app:srcCompat="@drawable/ic_search_whitee" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_global_toolbar_2"
+                    style="@style/oneLineWhiteText__start_style_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:textColor="?attr/colorWhiteAttrEveryWhere"
+                    android:textSize="@dimen/txt_report_size_3"
+                    app:layout_constraintEnd_toStartOf="@+id/img_global_toolbar_2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="adsfasdfasdfasf" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

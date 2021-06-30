@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fabSize">70dp</dimen>
+    <dimen name="fabMaxImageSizeSize">35dp</dimen>
+
+    <dimen name="padding1">3dp</dimen>
+
+    <dimen name="toolbar_height">80dp</dimen>
+    <dimen name="toolbar_height_image_profile">65dp</dimen>
+    <dimen name="half_toolbar_height">40dp</dimen>
+    <dimen name="toolbar_parent_height">90dp</dimen>
+    <dimen name="half_toolbar_parent_height">45dp</dimen>
+    <dimen name="half_toolbar_parent_height_with_margin">35dp</dimen>
+    <dimen name="toolbar_parent_height_10_percent">9dp</dimen>
+    <dimen name="toolbar_parent_height_20_percent">18dp</dimen>
+    <dimen name="toolbar_big_height">160dp</dimen>
+    <dimen name="toolbar_image_width">30dp</dimen>
+
+
+    <dimen name="padding_row_report_2">40dp</dimen>
+
+    <dimen name="plus_minus_size">50dp</dimen>
+
+    <dimen name="login_view_height">80dp</dimen>
+    <dimen name="login_view_height_2">120dp</dimen>
+
+    <dimen name="mainImageSize">90dp</dimen>
+
+    <dimen name="NavigationDrawerImageSize">84dp</dimen>
+    <dimen name="NavigationDrawerImageSize_2">100dp</dimen>
+
+    <dimen name="progressUnreachedBarHeight">7dp</dimen>
+    <dimen name="progressReachedBarHeight">7dp</dimen>
+    <dimen name="progress_text_offset">3dp</dimen>
+
+    <dimen name="state_report_size">10sp</dimen>
+    <dimen name="txt_report_size_1">12sp</dimen>
+    <dimen name="txt_report_size_2">14sp</dimen>
+    <dimen name="txt_report_size_3">16sp</dimen>
+    <dimen name="txt_report_size_4">18sp</dimen>
+    <dimen name="txt_report_size_5">20sp</dimen>
+
+    <dimen name="stateCircleSize">10dp</dimen>
+    <dimen name="margin_toolbar_icon" >14dp</dimen>
+
+
+    <dimen name="linlay_state_Size">8dp</dimen>
+
+    <dimen name="img_report_height">30dp</dimen>
+
+    <dimen name="chat_list_row">90dp</dimen>
+
+</resources>

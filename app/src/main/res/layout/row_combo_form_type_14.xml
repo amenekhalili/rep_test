@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conslay_row_form_type_14"
+    style="@style/constraint_layout_row_recycle_style1">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        style="@style/card_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardCornerRadius="@dimen/card_view_corner"
+        app:cardElevation="@dimen/card_view_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,3:1.45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout style="@style/constraint_layout_in_card_view_style">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_title_row_form_type_14"
+                style="@style/oneLineBlackText_style_title_row_form"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:autoSizeTextType="none"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:text="nv phg fi v,c vshkd54dfgdfgd6sf5g4hj56" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edt_txt_value_row_form_type_14"
+                style="@style/oneLine_Number_BlackText_style_body_row_form"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:hint="@string/write_some_thing"
+                android:selectAllOnFocus="true"
+                app:autoSizeTextType="none"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

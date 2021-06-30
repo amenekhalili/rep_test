@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/constraint_layout_style"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/global_toolbar_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:theme="@style/toolbar_search_style">
+
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/global_search_bar_3"
+            style="@style/MaterialSearchBarLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/toolbar_height"
+            app:mt_backIconTint="?attr/colorBlackAttr"
+            app:mt_backIconUseTint="true"
+            app:mt_clearIconTint="?attr/colorBlackAttr"
+            app:mt_clearIconUseTint="true"
+            app:mt_dividerColor="?attr/colorGrayAttr"
+            app:mt_hint="@string/search"
+            app:mt_hintColor="?attr/colorGrayAttr"
+            app:mt_maxSuggestionsCount="@integer/max_search_suggestion"
+            app:mt_menuIconTint="?attr/colorBlackAttr"
+            app:mt_menuIconUseTint="true"
+            app:mt_navIconEnabled="false"
+            app:mt_navIconTint="?attr/colorBlackAttr"
+            app:mt_navIconUseTint="true"
+            app:mt_placeholderColor="?attr/colorBlackAttr"
+            app:mt_roundedSearchBarEnabled="false"
+            app:mt_searchBarColor="?attr/colorWhiteAttr"
+            app:mt_searchIconTint="?attr/colorBlackAttr"
+            app:mt_searchIconUseTint="true"
+            app:mt_speechMode="false"
+            app:mt_textColor="?attr/colorBlackAttr" />
+    </androidx.appcompat.widget.Toolbar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

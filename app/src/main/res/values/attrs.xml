@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorPrimaryAttr" format="reference"/>
+    <attr name="colorPrimaryDarkAttr" format="reference"/>
+    <attr name="colorAccentAttr" format="reference"/>
+    <attr name="colorBlackAttr" format="reference"/>
+    <attr name="colorWhiteAttr" format="reference"/>
+    <attr name="colorWhiteAttrEveryWhere" format="reference"/>
+    <attr name="colorRedAttr" format="reference"/>
+    <attr name="colorGrayAttr" format="reference"/>
+    <attr name="colorLightGrayAttr" format="reference"/>
+    <attr name="colorTransparentAttr" format="reference"/>
+    <attr name="colorTransparentDarkAttr" format="reference"/>
+    <attr name="colorOrangeAttr" format="reference"/>
+    <attr name="colorBlueAttr" format="reference"/>
+    <attr name="colorGreenAttr" format="reference"/>
+    <attr name="colorBlueGreenAttr" format="reference"/>
+    <attr name="colorPurpleAttr" format="reference"/>
+    <attr name="colorCoalDarkDarkAttr" format="reference"/>
+    *************************************************************
+    <declare-styleable name="CustomCircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <!-- {@deprecated Use civ_circlebackground_color instead.} -->
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+    *************************************************************
+    <!--for com.github.abdularis:androidbuttonprogress:1.0.2-->
+
+    <declare-styleable name="DownloadButtonProgress">
+        <attr name="state" format="enum">
+            <enum name="IDLE" value="1"/>
+            <enum name="INDETERMINATE" value="2"/>
+            <enum name="DETERMINATE" value="3"/>
+            <enum name="FINISHED" value="4"/>
+        </attr>
+        <attr name="cancelable" format="boolean"/>
+        <attr name="hideOnFinish" format="boolean"/>
+        <attr name="progressIndeterminateSweepAngle" format="integer"/>
+
+        <attr name="idleBackgroundColor" format="color"/>
+        <attr name="finishBackgroundColor" format="color"/>
+        <attr name="indeterminateBackgroundColor" format="color"/>
+        <attr name="determinateBackgroundColor" format="color"/>
+
+        <attr name="idleBackgroundDrawable" format="reference"/>
+        <attr name="finishBackgroundDrawable" format="reference"/>
+        <attr name="indeterminateBackgroundDrawable" format="reference"/>
+        <attr name="determinateBackgroundDrawable" format="reference"/>
+
+        <attr name="progress" format="integer"/>
+        <attr name="maxProgress" format="integer"/>
+        <attr name="progressWidth" format="dimension"/>
+        <attr name="progressMargin" format="dimension"/>
+        <attr name="progressDeterminateColor" format="color"/>
+        <attr name="progressIndeterminateColor" format="color"/>
+
+        <attr name="idleIconDrawable" format="reference"/>
+        <attr name="idleIconWidth" format="dimension"/>
+        <attr name="idleIconHeight" format="dimension"/>
+
+        <attr name="cancelIconDrawable" format="reference"/>
+        <attr name="cancelIconWidth" format="dimension"/>
+        <attr name="cancelIconHeight" format="dimension"/>
+
+        <attr name="finishIconDrawable" format="reference"/>
+        <attr name="finishIconWidth" format="dimension"/>
+        <attr name="finishIconHeight" format="dimension"/>
+    </declare-styleable>
+
+    *************************for android 19 bugs !!!************************************
+</resources>

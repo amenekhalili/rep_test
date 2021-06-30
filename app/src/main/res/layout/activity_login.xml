@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/constraint_layout_style_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.login.LoginActivity">
+
+
+    <include
+        android:id="@+id/conslay_prog_login_act"
+        layout="@layout/layout_global_progress"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_setting_login_act"
+        style="@style/img_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.1"
+        app:srcCompat="@drawable/ic_setings" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        style="@style/scroll_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorTransparentAttr"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login_login_act"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8">
+
+
+        <LinearLayout
+            style="@style/linear_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                style="@style/img_style0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_view_height"
+                android:layout_margin="@dimen/margin1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_hash" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/material_edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_view_height">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_organization_login_act"
+                    style="@style/material_edit_text_inner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/organization" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/material_edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_view_height">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_username_login_act"
+                    style="@style/material_edit_text_inner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/username" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/material_edit_text_border"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_view_height">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_password_login_act"
+                    style="@style/material_edit_text_inner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/password"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_version_login"
+                style="@style/oneLineAccentText_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_report_size_1"
+                app:autoSizeTextType="none"
+                tools:text="564654646546454654kkkkkkkkkkkkkkkkkkkjj" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_login_act"
+        style="@style/btn_style_1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/login_view_height"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

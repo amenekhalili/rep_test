@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/constraint_layout_row_recycle_style1"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_row_banner_report"
+        style="@style/card_view_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_view_corner"
+        app:cardElevation="@dimen/card_view_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            style="@style/constraint_layout_in_card_view_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/constraint_layout_in_card_view_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_percent="0.8">
+
+                <include
+                    android:id="@+id/include13"
+                    layout="@layout/layout_globale_state_green"
+                    android:layout_width="@dimen/stateCircleSize"
+                    android:layout_height="@dimen/stateCircleSize"
+                    app:layout_constraintBottom_toTopOf="@+id/appCompatTextView11"
+                    app:layout_constraintEnd_toEndOf="@+id/appCompatTextView11"
+                    app:layout_constraintHeight_percent="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/appCompatTextView11"
+                    app:layout_constraintWidth_percent="0.2" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView11"
+                    style="@style/oneLineBlackText_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/New"
+                    android:textSize="@dimen/state_report_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.2" />
+
+
+                <include
+                    android:id="@+id/include14"
+                    layout="@layout/layout_globale_state_red"
+                    android:layout_width="@dimen/stateCircleSize"
+                    android:layout_height="@dimen/stateCircleSize"
+                    app:layout_constraintBottom_toTopOf="@+id/appCompatTextView12"
+                    app:layout_constraintEnd_toEndOf="@+id/appCompatTextView12"
+                    app:layout_constraintHeight_percent="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/appCompatTextView12"
+                    app:layout_constraintWidth_percent="0.2" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView12"
+                    style="@style/oneLineBlackText_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/access_denied"
+                    android:textSize="@dimen/state_report_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/appCompatTextView11"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.2" />
+
+                <include
+                    android:id="@+id/include8"
+                    layout="@layout/layout_globale_state_blue"
+                    android:layout_width="@dimen/stateCircleSize"
+                    android:layout_height="@dimen/stateCircleSize"
+                    app:layout_constraintBottom_toTopOf="@+id/appCompatTextView13"
+                    app:layout_constraintEnd_toEndOf="@+id/appCompatTextView13"
+                    app:layout_constraintHeight_percent="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/appCompatTextView13"
+                    app:layout_constraintWidth_percent="0.2" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView13"
+                    style="@style/oneLineBlackText_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deleted"
+                    android:textSize="@dimen/state_report_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/appCompatTextView12"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.2" />
+
+                <include
+                    android:id="@+id/include10"
+                    layout="@layout/layout_globale_state_gray"
+                    android:layout_width="@dimen/stateCircleSize"
+                    android:layout_height="@dimen/stateCircleSize"
+                    app:layout_constraintBottom_toTopOf="@+id/appCompatTextView14"
+                    app:layout_constraintEnd_toEndOf="@+id/appCompatTextView14"
+                    app:layout_constraintHeight_percent="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/appCompatTextView14"
+                    app:layout_constraintWidth_percent="0.2" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView14"
+                    style="@style/oneLineBlackText_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/seen"
+                    android:textSize="@dimen/state_report_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/appCompatTextView13"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.2" />
+
+                <include
+                    android:id="@+id/include12"
+                    layout="@layout/layout_globale_state_orang"
+                    android:layout_width="@dimen/stateCircleSize"
+                    android:layout_height="@dimen/stateCircleSize"
+                    app:layout_constraintBottom_toTopOf="@+id/appCompatTextView15"
+                    app:layout_constraintEnd_toEndOf="@+id/appCompatTextView15"
+                    app:layout_constraintHeight_percent="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/appCompatTextView15"
+                    app:layout_constraintWidth_percent="0.2" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appCompatTextView15"
+                    style="@style/twoLineBlackText_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edited"
+                    android:textSize="@dimen/state_report_size"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/appCompatTextView14"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.2" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/card_view_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        style="@style/linear_layout_style_no_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/linear_layout_style_no_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/chat_list_row"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/linear_layout_style_no_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/img_forbiden_chatroom"
+                        style="@style/img_style0"
+                        android:layout_width="@dimen/toolbar_parent_height_20_percent"
+                        android:layout_height="@dimen/toolbar_parent_height_20_percent"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:srcCompat="@drawable/ic_info_red" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/img_waiting_chatroom"
+                        style="@style/img_style0"
+                        android:layout_width="@dimen/toolbar_parent_height_20_percent"
+                        android:layout_height="@dimen/toolbar_parent_height_20_percent"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:srcCompat="@drawable/ic_wait" />
+
+                    <ir.fararayaneh.erp.custom_views.CustomCircleImageView
+                        android:id="@+id/img_profile_chat_list"
+                        style="@style/img_profile_style3"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        app:civ_border_color="?attr/colorWhiteAttr"
+                        app:civ_border_width="@dimen/CircleImageBorderSize"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHeight_percent="0.8"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/erp_3" />
+
+                    <ir.fararayaneh.erp.custom_views.CustomCircleImageView
+                        android:id="@+id/img_back_offline_chat_list"
+                        style="@style/img_profile_style3"
+                        android:layout_width="@dimen/toolbar_parent_height_20_percent"
+                        android:layout_height="@dimen/toolbar_parent_height_20_percent"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/buble_back_online_offline"
+                        app:civ_border_color="?attr/colorWhiteAttr"
+                        app:civ_border_width="@dimen/CircleImageBorderSize"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <ir.fararayaneh.erp.custom_views.CustomCircleImageView
+                        android:id="@+id/img_offline_chat_list"
+                        style="@style/img_profile_style3"
+                        android:layout_width="@dimen/toolbar_parent_height_10_percent"
+                        android:layout_height="@dimen/toolbar_parent_height_10_percent"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bubble_offline"
+                        app:civ_border_color="?attr/colorWhiteAttr"
+                        app:civ_border_width="@dimen/CircleImageBorderSize"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ir.fararayaneh.erp.custom_views.CustomCircleImageView
+                        android:id="@+id/img_online_chat_list"
+                        style="@style/img_profile_style3"
+                        android:layout_width="@dimen/toolbar_parent_height_10_percent"
+                        android:layout_height="@dimen/toolbar_parent_height_10_percent"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bubble_online"
+                        app:civ_border_color="?attr/colorWhiteAttr"
+                        app:civ_border_width="@dimen/CircleImageBorderSize"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlayChatlist"
+                style="@style/linear_layout_style_no_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_name_chat_list"
+                    style="@style/oneLineBlackText_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/half_toolbar_height"
+                    android:layout_gravity="start"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/txt_report_size_3"
+                    android:textStyle="bold"
+                    app:autoSizeTextType="none"
+                    tools:text="564654646546454654kkkkkkkkkkkkkkkkkkkjj" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_last_msg_chat_list"
+                    style="@style/oneLineGrayText_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/half_toolbar_height"
+                    android:layout_gravity="start"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/txt_report_size_2"
+                    app:autoSizeTextType="none"
+                    tools:text="vxcvxvx" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_layout_style_no_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_date_chat_list"
+                    style="@style/oneLineGrayText_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/half_toolbar_height"
+                    android:textColor="?attr/colorGrayAttr"
+                    android:textSize="@dimen/txt_report_size_1"
+                    app:autoSizeTextType="none"
+                    tools:text="sdfsf444u54ty54usdfsf444uu" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_un_reed_chat_list"
+                    style="@style/oneLinePrimaryText_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorAccentAttr"
+                    android:textSize="@dimen/txt_report_size_2"
+                    app:autoSizeTextType="none"
+                    tools:text="5" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_layout_style_no_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="@dimen/toolbar_height"
+            android:background="?attr/colorLightGrayAttr"
+            android:orientation="vertical"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

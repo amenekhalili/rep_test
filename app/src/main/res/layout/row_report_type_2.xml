@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout_parent_row_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_row_report_5"
+        style="@style/card_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_view_corner"
+        app:cardElevation="@dimen/card_view_elevation">
+
+        <LinearLayout
+            style="@style/linear_layout_style_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linlay_state_report_2"
+                style="@style/linear_layout_style_2"
+                android:layout_width="@dimen/linlay_state_Size"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent3"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                style="@style/linear_layout_style_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/linear_layout_style_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_main_titile_report_2"
+                        style="@style/oneLineBlackText_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textSize="@dimen/txt_report_size_5"
+                        tools:text="Main_Title Main_Main_Title Main_Title" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_sub_titile_report_2"
+                        style="@style/oneLineBlackText_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textSize="@dimen/txt_report_size_2"
+                        tools:text="Main_Title123" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_state_report_2"
+                        style="@style/oneLineGrayText_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/txt_report_size_1"
+                        tools:text="Main_Title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ddddddddddd"
+                    style="@style/linear_layout_style_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/linear_layout_style_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            style="@style/linear_layout_style_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/img_attach_report_2"
+                                style="@style/img_style0"
+                                android:layout_width="@dimen/half_toolbar_height"
+                                android:layout_height="@dimen/half_toolbar_height"
+                                android:contentDescription="@string/attach_albom"
+                                app:srcCompat="@drawable/ic_attach_epty" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/linear_layout_style_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            style="@style/linear_layout_style_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                style="@style/img_style0"
+                                android:layout_width="@dimen/half_toolbar_height"
+                                android:layout_height="@dimen/half_toolbar_height"
+                                android:contentDescription="@string/attach_albom"
+                                app:srcCompat="@drawable/ic_duration_gray" />
+
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_date_report_2"
+                                style="@style/oneLineGrayText_style"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="@dimen/txt_report_size_1"
+                                tools:text="Main_Title" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/linear_layout_style_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_main_content_report_2"
+                        style="@style/threeLine_blackText_style_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:textSize="@dimen/txt_report_size_1"
+                        tools:text="Main_TitleMain_TitleMain_TitleMain_TitleMain_
+                TitleMain_TitleMain_TitleMain_TitleMain_TitleMain_TitleMain_T
+                itleMain_TitleMain_TitleMain_TitleMain_TitleMain_TitleMain_TitleMain_TitleMain_Title" />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

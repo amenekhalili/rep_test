@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO create proper layout for be replaced black screen-->
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item android:drawable="@color/colorWhite"/>
+</layer-list>
+
+
+    <!--TODO
+         استثنا به دلیل باگ اندروید 19 اینجا از attr استفاده نکردیم
+         چون به عنوان استایل نمیشد از این بکگراند استفاده کنیم و حتما در همه ورژن ها نیاز به بکگراند گرد داریم
+                 چون رنگ های اینجا در همه استایل ها یکی است
+
+         -->

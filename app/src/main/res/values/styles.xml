@@ -1,0 +1,977 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge" />
+
+
+    <style name="DefaultAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+
+        <item name="colorPrimaryAttr">@color/colorPrimary</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark</item>
+        <item name="colorAccentAttr">@color/colorAccent</item>
+        <item name="colorBlackAttr">@color/colorBlack</item>
+        <item name="colorWhiteAttr">@color/colorWhite</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere</item>
+        <item name="colorRedAttr">@color/colorRed</item>
+        <item name="colorOrangeAttr">@color/colorOrange</item>
+        <item name="colorBlueAttr">@color/colorBlue</item>
+        <item name="colorGreenAttr">@color/colorGreen</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen</item>
+        <item name="colorPurpleAttr">@color/colorPurple</item>
+        <item name="colorGrayAttr">@color/colorGray</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray</item>
+        <item name="colorTransparentAttr">@color/colorTransparent</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark</item>
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorPrimaryAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+
+    <style name="SecondAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary2</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark2</item>
+        <item name="colorAccentAttr">@color/colorAccent2</item>
+        <item name="colorBlackAttr">@color/colorBlack2</item>
+        <item name="colorWhiteAttr">@color/colorWhite2</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere2</item>
+        <item name="colorRedAttr">@color/colorRed2</item>
+        <item name="colorOrangeAttr">@color/colorOrange2</item>
+        <item name="colorBlueAttr">@color/colorBlue2</item>
+        <item name="colorGreenAttr">@color/colorGreen2</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen2</item>
+        <item name="colorPurpleAttr">@color/colorPurple2</item>
+        <item name="colorGrayAttr">@color/colorGray2</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray2</item>
+        <item name="colorTransparentAttr">@color/colorTransparent2</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark2</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark2</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorPrimaryAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+    <style name="ThirdAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary3</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark3</item>
+        <item name="colorAccentAttr">@color/colorAccent3</item>
+        <item name="colorBlackAttr">@color/colorBlack3</item>
+        <item name="colorWhiteAttr">@color/colorWhite3</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere3</item>
+        <item name="colorRedAttr">@color/colorRed3</item>
+        <item name="colorOrangeAttr">@color/colorOrange3</item>
+        <item name="colorBlueAttr">@color/colorBlue3</item>
+        <item name="colorGreenAttr">@color/colorGreen3</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen3</item>
+        <item name="colorPurpleAttr">@color/colorPurple3</item>
+        <item name="colorGrayAttr">@color/colorGray3</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray3</item>
+        <item name="colorTransparentAttr">@color/colorTransparent3</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark3</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark3</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorPrimaryAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="ForthAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary4</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark4</item>
+        <item name="colorAccentAttr">@color/colorAccent4</item>
+        <item name="colorBlackAttr">@color/colorBlack4</item>
+        <item name="colorWhiteAttr">@color/colorWhite4</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere4</item>
+        <item name="colorRedAttr">@color/colorRed4</item>
+        <item name="colorOrangeAttr">@color/colorOrange4</item>
+        <item name="colorBlueAttr">@color/colorBlue4</item>
+        <item name="colorGreenAttr">@color/colorGreen4</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen4</item>
+        <item name="colorPurpleAttr">@color/colorPurple4</item>
+        <item name="colorGrayAttr">@color/colorGray4</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray4</item>
+        <item name="colorTransparentAttr">@color/colorTransparent4</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark4</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark4</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorPrimaryAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="FifthAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary5</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark5</item>
+        <item name="colorAccentAttr">@color/colorAccent5</item>
+        <item name="colorBlackAttr">@color/colorBlack5</item>
+        <item name="colorWhiteAttr">@color/colorWhite5</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere5</item>
+        <item name="colorRedAttr">@color/colorRed5</item>
+        <item name="colorOrangeAttr">@color/colorOrange5</item>
+        <item name="colorBlueAttr">@color/colorBlue5</item>
+        <item name="colorGreenAttr">@color/colorGreen5</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen5</item>
+        <item name="colorPurpleAttr">@color/colorPurple5</item>
+        <item name="colorGrayAttr">@color/colorGray5</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray5</item>
+        <item name="colorTransparentAttr">@color/colorTransparent5</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark5</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark5</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorPrimaryAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="SixAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary6</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark6</item>
+        <item name="colorAccentAttr">@color/colorAccent6</item>
+        <item name="colorBlackAttr">@color/colorBlack6</item>
+        <item name="colorWhiteAttr">@color/colorWhite6</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere6</item>
+        <item name="colorRedAttr">@color/colorRed6</item>
+        <item name="colorOrangeAttr">@color/colorOrange6</item>
+        <item name="colorBlueAttr">@color/colorBlue6</item>
+        <item name="colorGreenAttr">@color/colorGreen6</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen6</item>
+        <item name="colorPurpleAttr">@color/colorPurple6</item>
+        <item name="colorGrayAttr">@color/colorGray6</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray6</item>
+        <item name="colorTransparentAttr">@color/colorTransparent6</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark6</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark6</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorPrimaryAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="SevenAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary7</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark7</item>
+        <item name="colorAccentAttr">@color/colorAccent7</item>
+        <item name="colorBlackAttr">@color/colorBlack7</item>
+        <item name="colorWhiteAttr">@color/colorWhite7</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere7</item>
+        <item name="colorRedAttr">@color/colorRed7</item>
+        <item name="colorOrangeAttr">@color/colorOrange7</item>
+        <item name="colorBlueAttr">@color/colorBlue7</item>
+        <item name="colorGreenAttr">@color/colorGreen7</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen7</item>
+        <item name="colorPurpleAttr">@color/colorPurple7</item>
+        <item name="colorGrayAttr">@color/colorGray7</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray7</item>
+        <item name="colorTransparentAttr">@color/colorTransparent7</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark7</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark7</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorPrimaryAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="EightAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary8</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark8</item>
+        <item name="colorAccentAttr">@color/colorAccent8</item>
+        <item name="colorBlackAttr">@color/colorBlack8</item>
+        <item name="colorWhiteAttr">@color/colorWhite8</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere8</item>
+        <item name="colorRedAttr">@color/colorRed8</item>
+        <item name="colorOrangeAttr">@color/colorOrange8</item>
+        <item name="colorBlueAttr">@color/colorBlue8</item>
+        <item name="colorGreenAttr">@color/colorGreen8</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen8</item>
+        <item name="colorPurpleAttr">@color/colorPurple8</item>
+        <item name="colorGrayAttr">@color/colorGray8</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray8</item>
+        <item name="colorTransparentAttr">@color/colorTransparent8</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark8</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark8</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorPrimaryAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!-- ********************************************************************************************* -->
+    <!-- for fill  screen when lunching activity  -->
+    <style name="Launcher" parent="DefaultAppTheme">
+        <item name="android:windowBackground">@drawable/back_main_windows</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="prog_style">
+        <item name="indicatorName">BallGridPulseIndicator</item>
+        <item name="indicatorColor">?attr/colorPrimaryAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="floatActionBtn_style">
+        <item name="android:layout_width">@dimen/fabSize</item>
+        <item name="android:layout_height">@dimen/fabSize</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="img_style0">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <style name="img_style">
+        <item name="android:scaleType">center</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <style name="img_profile_style">
+        <item name="android:layout_width">@dimen/NavigationDrawerImageSize</item>
+        <item name="android:layout_height">@dimen/NavigationDrawerImageSize</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <style name="img_profile_style_big">
+        <item name="android:layout_width">@dimen/NavigationDrawerImageSize_2</item>
+        <item name="android:layout_height">@dimen/NavigationDrawerImageSize</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <style name="img_profile_style2">
+        <item name="android:layout_width">@dimen/mainImageSize</item>
+        <item name="android:layout_height">@dimen/mainImageSize</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <style name="img_profile_style3">
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <style name="img_profile_style4">
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:layout_width">@dimen/toolbar_height</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="btn_download_style">
+        <!-- todo -->
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="crop_image_style">
+        <!-- todo -->
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="toolbar_style">
+        <item name="android:textColorSecondary">?attr/colorWhiteAttr</item>
+        <item name="android:textColorPrimary">?attr/colorWhiteAttr</item>
+        <item name="android:background">?attr/colorPrimaryAttr</item>
+        <item name="android:minHeight">?android:attr/actionBarSize</item>
+        <item name="android:textColor">?attr/colorWhiteAttr</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+    <style name="toolbar_search_style">
+        <item name="android:textColorSecondary">?attr/colorPrimaryAttr</item>
+        <item name="android:textColorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:minHeight">?android:attr/actionBarSize</item>
+        <item name="android:textColor">?attr/colorPrimaryAttr</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="n_Line_black_Textstyle">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/txt_report_size_3</item>
+        <item name="android:maxLines">@integer/MaxLineNumber10</item>
+
+
+    </style>
+    <style name="oneLineWhiteText_navigation_style">
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+
+    </style>
+    <style name="oneLineWhiteText_navigation_2_style">
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+
+    </style>
+    <style name="oneLineWhiteText_style">
+    <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+    <item name="android:padding">@dimen/padding1</item>
+    <item name="android:background">?attr/colorTransparentAttr</item>
+    <item name="android:gravity">center</item>
+    <item name="android:maxLines">@integer/MaxLineNumber2</item>
+
+</style>
+    <style name="oneLineWhiteText_style_2">
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">10sp</item>
+
+
+    </style>
+    <style name="oneLineWhiteText__start_style">
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="oneLineWhiteText__start_style_2">
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">13sp</item>
+
+    </style>
+    <style name="oneLineBlackText_style">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+    </style>
+    <style name="oneLineGrayText_white_backstyle">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorWhiteAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+    </style>
+    <style name="oneLine_scrool_text_style_black">
+        <item name="android:singleLine">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+    </style>
+    <style name="oneLine_scrool_text_style_primary">
+        <item name="android:singleLine">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:color">?attr/colorPrimaryAttr</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+    </style>
+    <style name="oneLine_scrool_text_style_accent">
+        <item name="android:singleLine">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:color">?attr/colorAccentAttr</item>
+
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+    </style>
+    <style name="oneLineBlackText_style_big_size">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="oneLineBlackText_title_dialog_style">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="twoLineGrayText_description_dialog_style">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber4</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="oneLineBlackText_style_big_size_2">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="oneLinePrimaryText_style_big_size_2">
+        <item name="android:textColor">?attr/colorPrimaryAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="oneLineBlackText_vrtical_style">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:rotation">-90</item>
+    </style>
+    <style name="twoLineBlackText_style">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber3</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+    <style name="oneLineBlackText_style_title_row_form">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">fill_vertical</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">@dimen/txt_report_size_1</item>
+    </style>
+    <style name="oneLine_Number_BlackText_style_body_row_form">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+    <style name="twoLineBlackText_style_title_row_form">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">fill_vertical</item>
+        <item name="android:maxLines">@integer/MaxLineNumber3</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="threeLine_blackText_style_value">
+    <item name="android:textColor">?attr/colorBlackAttr</item>
+    <item name="android:padding">@dimen/padding1</item>
+    <item name="android:background">?attr/colorTransparentAttr</item>
+    <item name="android:gravity">center</item>
+    <item name="android:maxLines">@integer/MaxLineNumber4</item>
+    <item name="android:textSize">14sp</item>
+    </style>
+    <style name="max_ten_minTree_Line_blackText_style_value">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber7</item>
+        <item name="android:minLines">@integer/MaxLineNumber4</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="max_ten_minTree_Line_grayText_style_value">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber7</item>
+        <item name="android:minLines">@integer/MaxLineNumber4</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="max_8_min_1_Line_blackText_style_value">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber6</item>
+        <item name="android:minLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="max_3_min_1_Line_gray_Text_style_value">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber4</item>
+        <item name="android:minLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="max_5_min_1_Line_black_Text_min_height_style_value">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">@integer/MaxLineNumber9</item>
+        <item name="android:minLines">@integer/MaxLineNumber2</item>
+        <item name="android:minHeight">@dimen/toolbar_height</item>
+        <item name="android:textSize">@dimen/txt_report_size_3</item>
+    </style>
+    <style name="max_20_min_Ten_Line_blackText_style_value">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber8</item>
+        <item name="android:minLines">@integer/MaxLineNumber7</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="max_20_minTree_Line_blackText_style_value">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber8</item>
+        <item name="android:minLines">@integer/MaxLineNumber4</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="max_20_minOne_Line_blackText_style_value">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber8</item>
+        <item name="android:minLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="forLine_blackText_style_value">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber5</item>
+        <item name="android:minLines">@integer/MaxLineNumber4</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="forLine_blackText_style_value_min_1">
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber5</item>
+        <item name="android:minLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="threeLineGrayText_style_value_row_form">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber4</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="threeLineGrayText_style_value_row_form2">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber4</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+    <style name="threeLineGrayText_style_value_row_form3">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber6</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+    <style name="threeLineGray_edit_text_text_style_value_row_form">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber4</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="oneLineGray_edit_text_text_style">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="threeLin_edText_style_error_row_form">
+        <item name="android:textColor">?attr/colorPrimaryAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber4</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+    <style name="oneLineGrayText_style">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="oneLineAccentText_style">
+        <item name="android:textColor">?attr/colorAccentAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">10sp</item>
+
+    </style>
+    <style name="oneLineAccentText_style_2">
+        <item name="android:textColor">?attr/colorAccentAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+    <style name="oneLinePrimaryText_style">
+        <item name="android:textColor">?attr/colorPrimaryAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="oneLinePrimaryText_style_2">
+        <item name="android:textColor">?attr/colorPrimaryAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+    <style name="twoLineGrayText_style">
+        <item name="android:textColor">?attr/colorGrayAttr</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">@integer/MaxLineNumber3</item>
+        <item name="android:textSize">10sp</item>
+
+    </style>
+
+
+    <style name="material_edit_text_border" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#aaa123</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="material_edit_text_inner" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+    <style name="material_edit_text_inner_number" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+    <style name="material_edit_text_inner_number_decimal" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+    <style name="material_edit_text_inner_2" >
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:minLines">@integer/MinLineNumber1</item>
+        <item name="android:lines">@integer/MinLineNumber1</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">vertical</item>
+
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="btn_style_1" >
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:background">@drawable/btn_back</item>
+    </style>
+    <style name="btn_style_2" >
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:background">@drawable/btn_back2</item>
+    </style>
+    <style name="btn_style_3" >
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:background">@drawable/btn_back3</item>
+    </style>
+
+    <style name="back_ios_alert_style" >
+        <item name="android:background">@drawable/alert_ios_background</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="custom_recycle_style" >
+        <item name="android:scrollbars">vertical</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="bottombar_layout_style" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="shapeView_style" >
+        <!--todo -->
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="constraint_layout_style" >
+        <!--todo -->
+    </style>
+    <style name="constraint_layout_style_white" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+    </style>
+    <style name="constraint_black_layout_style" >
+        <item name="android:background">?attr/colorBlackAttr</item>
+    </style>
+    <style name="constraint_layout_background_color_parent_toolbar_style" >
+        <item name="android:background">?attr/colorPrimaryAttr</item>
+        <item name="android:layout_height">@dimen/toolbar_parent_height</item>
+    </style>
+    <style name="constraint_layout_row_recycle_style0" >
+        <item name="android:layout_margin">@dimen/row_recycler_margin2</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="constraint_layout_row_recycle_style1" >
+        <item name="android:layout_margin">@dimen/row_recycler_margin2</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="constraint_layout_parent_recycle_style" >
+        <item name="android:background">?attr/colorLightGrayAttr</item>
+    </style>
+    <style name="constraint_layout_in_card_view_style" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/constraint_in_card_view_padding</item>
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="CheckBox_style" >
+        <!--todo -->
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="switch_view_style" >
+        <!--todo -->
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="scroll_view_style" >
+        <!--todo -->
+        <item name="android:scrollbarSize">@dimen/scroll_bar_size</item>
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="linear_layout_style" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+    </style>
+    <style name="linear_layout_style_no_color" >
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <style name="linear_layout_style_0" >
+    </style>
+    <style name="linear_layout_parent_row_style" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+        <item name="android:layout_margin">@dimen/margin3</item>
+    </style>
+    <style name="linear_layout_style_2" >
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:layout_margin">@dimen/linlay_margin</item>
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="linear_layout_style_3" >
+        <item name="android:background">?attr/colorTransparentAttr</item>
+        <item name="android:layout_margin">@dimen/linlay_margin_2</item>
+        <item name="android:gravity">start</item>
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="search_spinner_list_view_style" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+        <item name="android:divider">?attr/colorLightGrayAttr</item>
+        <item name="android:dividerHeight">@dimen/spinner_search_list_view_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/spinner_search_list_view_size</item>
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="drawer_layout_style" >
+        <item name="android:background">?attr/colorLightGrayAttr</item>
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="tab_layout_style" parent="Base.Widget.Design.TabLayout">
+        <item name="android:background">?attr/colorPrimaryAttr</item>
+        <item name="android:textSize">@dimen/txt_report_size_3</item>
+    </style>
+    <!-- ********************************************************************************************* -->   <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="view_pager_style" >
+        <!--todo -->
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->   <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="navigation_view_style" >
+        <!--todo -->
+    </style>
+    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->   <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="number_picker_style" >
+        <!--todo -->
+    </style>
+    <!-- ********************************************************************************************* --><!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->   <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->    <!-- ********************************************************************************************* -->
+    <style name="card_view_style" >
+        <!--todo -->
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="navigation_header_style" >
+        <item name="android:background">?attr/colorPrimaryAttr</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="number_progress_bar_style" parent="NumberProgressBar_Default">
+        <item name="progress_unreached_color">?attr/colorTransparentDarkAttr</item>
+        <item name="progress_reached_color">?attr/colorAccentAttr</item>
+        <item name="progress_unreached_bar_height">@dimen/progressUnreachedBarHeight</item>
+        <item name="progress_reached_bar_height">@dimen/progressReachedBarHeight</item>
+        <item name="progress_text_size">@dimen/txt_report_size_3</item>
+        <item name="progress_text_color">?attr/colorGrayAttr</item>
+        <item name="progress_text_offset">@dimen/progress_text_offset</item>
+        <item name="progress_text_visibility">visible</item>
+        <item name="progress_max">100</item>
+        <item name="progress_current">10</item>
+
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="DialogAnimations" />
+    <style name="DialogAnimations.SmileWindow">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_top</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+    <style name="frame_layout_style" >
+        <item name="android:background">?attr/colorWhiteAttr</item>
+    </style>
+    <style name="frame_layout_style_2" >
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+
+
+</resources>

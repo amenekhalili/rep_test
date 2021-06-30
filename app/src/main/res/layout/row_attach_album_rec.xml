@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/constraint_layout_row_recycle_style1"
+    >
+
+    <androidx.cardview.widget.CardView
+        style="@style/card_view_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_view_corner"
+        app:cardElevation="@dimen/card_view_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            style="@style/constraint_layout_in_card_view_style"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout3"
+                style="@style/constraint_layout_style"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/toolbar_big_height"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ir.fararayaneh.erp.custom_views.CustomCircleImageView
+                    android:id="@+id/img_attach_album_row"
+                    style="@style/img_profile_style3"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:padding="5dp"
+                    app:civ_border_color="?attr/colorPrimaryAttr"
+                    app:civ_border_width="@dimen/CircleImageBorderSize"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/erp_4" />
+
+                <com.github.abdularis.buttonprogress.DownloadButtonProgress
+                    android:id="@+id/btn_download_attach_album_row"
+                    style="@style/btn_download_style"
+                    android:layout_width="@dimen/fabSize"
+                    android:layout_height="@dimen/fabSize"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.3" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/constraint_layout_style"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/toolbar_parent_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_attach_album_row"
+                    style="@style/twoLineBlackText_style"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textSize="@dimen/txt_report_size_1"
+                    app:autoSizeTextType="none"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_constraintWidth_percent="0.8"
+                    tools:text="dytruuuio656545tuighghjhgjghjghjghj6o4y98iofgdfgdfdgdfgdgdfgdfgdgdfgdfgdfgdfgyi4oy8i4yuiyuiyuiyuiyui" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_delete_album_row"
+                    style="@style/img_style"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/txt_attach_album_row"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.2"
+                    app:srcCompat="@drawable/ic_recycle" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "504199693111",
+    "firebase_url": "https://arashfaraproject.firebaseio.com",
+    "project_id": "arashfaraproject",
+    "storage_bucket": "arashfaraproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504199693111:android:c275c36c74ac759c",
+        "android_client_info": {
+          "package_name": "ir.fararayaneh.erp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504199693111-merdpgtij6h29qmhuhmn52hrr2ehoai0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuX9d4dwfxLi7e31aJtbe-bDPobbmoW9Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

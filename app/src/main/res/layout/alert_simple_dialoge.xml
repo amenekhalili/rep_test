@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout_style"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialoge_height"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/oneLineBlackText_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="5dp"
+        android:text="@string/description"
+        app:autoSizeTextType="none" />
+
+
+    <ScrollView
+        style="@style/scroll_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_alert_simple_dialoge"
+                style="@style/max_20_minTree_Line_blackText_style_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_report_size_2"
+                app:autoSizeTextType="none"
+                tools:text="jjj
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+                jjjjj\n
+
+                jjjjjjdd" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

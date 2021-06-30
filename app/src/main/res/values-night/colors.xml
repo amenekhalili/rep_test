@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- defualt theme-->
+
+    <color name="colorPrimary">#2B2B2B</color>
+    <color name="colorPrimaryDark">#070707</color>
+    <color name="colorAccent">#FFC800</color>
+    <color name="colorBlack">#ffffff</color>
+    <color name="colorWhite">#1E1E1E</color>
+    <color name="colorGray">#808080</color>
+    <color name="colorLightGray">#1E1E1E</color>
+    <color name="colorTransparentDark">#9F2B2525</color>
+    <color name="colorCoalDark">#DE717070</color>
+
+
+    <!-- second theme-->
+    <color name="colorPrimary2">#2B2B2B</color>
+    <color name="colorPrimaryDark2">#070707</color>
+    <color name="colorAccent2">#FFC800</color>
+    <color name="colorBlack2">#ffffff</color>
+    <color name="colorWhite2">#1E1E1E</color>
+    <color name="colorGray2">#808080</color>
+    <color name="colorLightGray2">#1E1E1E</color>
+    <color name="colorTransparentDark2">#9F2B2525</color>
+    <color name="colorCoalDark2">#DE717070</color>
+
+    <!-- 3 theme-->
+    <color name="colorPrimary3">#2B2B2B</color>
+    <color name="colorPrimaryDark3">#070707</color>
+    <color name="colorAccent3">#FFC800</color>
+    <color name="colorBlack3">#ffffff</color>
+    <color name="colorWhite3">#1E1E1E</color>
+    <color name="colorGray3">#808080</color>
+    <color name="colorLightGray3">#1E1E1E</color>
+    <color name="colorTransparentDark3">#9F2B2525</color>
+    <color name="colorCoalDark3">#DE717070</color>
+
+    <!-- 4 theme-->
+    <color name="colorPrimary4">#2B2B2B</color>
+    <color name="colorPrimaryDark4">#070707</color>
+    <color name="colorAccent4">#FFC800</color>
+    <color name="colorBlack4">#ffffff</color>
+    <color name="colorWhite4">#1E1E1E</color>
+    <color name="colorGray4">#808080</color>
+    <color name="colorLightGray4">#1E1E1E</color>
+    <color name="colorTransparentDark4">#9F2B2525</color>
+    <color name="colorCoalDark4">#DE717070</color>
+
+
+    <!-- 5 theme-->
+    <color name="colorPrimary5">#2B2B2B</color>
+    <color name="colorPrimaryDark5">#070707</color>
+    <color name="colorAccent5">#FFC800</color>
+    <color name="colorBlack5">#ffffff</color>
+    <color name="colorWhite5">#1E1E1E</color>
+    <color name="colorGray5">#808080</color>
+    <color name="colorLightGray5">#1E1E1E</color>
+    <color name="colorTransparentDark5">#9F2B2525</color>
+    <color name="colorCoalDark5">#DE717070</color>
+
+
+    <!-- 6 theme-->
+    <color name="colorPrimary6">#2B2B2B</color>
+    <color name="colorPrimaryDark6">#070707</color>
+    <color name="colorAccent6">#FFC800</color>
+    <color name="colorBlack6">#ffffff</color>
+    <color name="colorWhite6">#1E1E1E</color>
+    <color name="colorGray6">#808080</color>
+    <color name="colorLightGray6">#1E1E1E</color>
+    <color name="colorTransparentDark6">#9F2B2525</color>
+    <color name="colorCoalDark6">#DE717070</color>
+
+
+    <!-- 7 theme-->
+    <color name="colorPrimary7">#2B2B2B</color>
+    <color name="colorPrimaryDark7">#070707</color>
+    <color name="colorAccent7">#FFC800</color>
+    <color name="colorBlack7">#ffffff</color>
+    <color name="colorWhite7">#1E1E1E</color>
+    <color name="colorGray7">#808080</color>
+    <color name="colorLightGray7">#1E1E1E</color>
+    <color name="colorTransparentDark7">#9F2B2525</color>
+    <color name="colorCoalDark7">#DE717070</color>
+
+
+    <!-- 8 theme-->
+    <color name="colorPrimary8">#2B2B2B</color>
+    <color name="colorPrimaryDark8">#070707</color>
+    <color name="colorAccent8">#FFC800</color>
+    <color name="colorBlack8">#ffffff</color>
+    <color name="colorWhite8">#1E1E1E</color>
+    <color name="colorGray8">#808080</color>
+    <color name="colorLightGray8">#1E1E1E</color>
+    <color name="colorTransparentDark8">#9F2B2525</color>
+    <color name="colorCoalDark8">#DE717070</color>
+
+    <!-- ///////////////////////////////////////////////////////////-->
+
+</resources>

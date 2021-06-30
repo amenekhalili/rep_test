@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/constraint_layout_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <com.roughike.bottombar.BottomBar
+       android:id="@+id/global_bottombar"
+       style="@style/bottombar_layout_style"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/toolbar_height"
+       app:bb_tabXmlResource="@xml/mian_bottombar_tabs"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintDimensionRatio="H,"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

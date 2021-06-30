@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <!--
+        @todo:
+        icons must be fully opaque, solid black color, 24dp and with no padding
+        here is 24 dp !!
+
+        do not remove colorGreen
+    -->
+    <tab
+        id="@+id/tab_online_main_botom_bar"
+        icon="@drawable/ic_internet"
+        barColorWhenSelected="?attr/colorWhiteAttr"
+        inActiveColor="?attr/colorAccentAttr"
+        activeColor="@color/colorGreen"
+        />
+    <tab
+        id="@+id/tab_dashboard_main_botom_bar"
+        icon="@drawable/ic_dashboard"
+        barColorWhenSelected="?attr/colorWhiteAttr"
+        inActiveColor="?attr/colorAccentAttr"
+        activeColor="@color/colorGreen"
+        />
+    <tab
+        id="@+id/tab_home_main_botom_bar"
+        icon="@drawable/ic_home"
+        barColorWhenSelected="?attr/colorWhiteAttr"
+        inActiveColor="?attr/colorAccentAttr"
+        activeColor="@color/colorGreen"
+        />
+    <tab
+        id="@+id/tab_cardabl_main_botom_bar"
+        icon="@drawable/ic_file"
+        barColorWhenSelected="?attr/colorWhiteAttr"
+        inActiveColor="?attr/colorAccentAttr"
+        activeColor="@color/colorGreen"
+        />
+    <tab
+        id="@+id/tab_chat_main_botom_bar"
+        icon="@drawable/ic_chat"
+        barColorWhenSelected="?attr/colorWhiteAttr"
+        inActiveColor="?attr/colorAccentAttr"
+        activeColor="@color/colorGreen"
+        />
+
+</tabs>

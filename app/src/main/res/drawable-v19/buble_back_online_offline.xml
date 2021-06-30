@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/colorWhite" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/colorWhite" />
+    <size
+        android:width="20dp"
+        android:height="20dp" />
+</shape>
+
+
+    <!--TODO
+     استثنا به دلیل باگ اندروید 19 اینجا از attr استفاده نکردیم
+     چون به عنوان استایل نمیشد از این بکگراند استفاده کنیم و حتما در همه ورژن ها نیاز به بکگراند گرد داریم
+             چون رنگ های اینجا در همه استایل ها یکی است
+
+     -->

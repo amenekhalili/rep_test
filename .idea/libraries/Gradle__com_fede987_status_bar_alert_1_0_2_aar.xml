@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.fede987:status-bar-alert:1.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5edbfdb62a907546006799b433648df/jetified-status-bar-alert-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/98ee281c1b391adafcd22db6772b4ae8/jetified-status-bar-alert-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5edbfdb62a907546006799b433648df/jetified-status-bar-alert-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5edbfdb62a907546006799b433648df/jetified-status-bar-alert-1.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fede987/status-bar-alert/1.0.2/bdf999c92752fe937e8f64a1ccbd0f611b920282/status-bar-alert-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

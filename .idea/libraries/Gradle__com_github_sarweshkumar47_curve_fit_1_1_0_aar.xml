@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.sarweshkumar47:curve-fit:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e0c9643183de7c7081357d98d784d78/jetified-curve-fit-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e0c9643183de7c7081357d98d784d78/jetified-curve-fit-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e0c9643183de7c7081357d98d784d78/jetified-curve-fit-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sarweshkumar47/curve-fit/1.1.0/dfcef26228712252ca11b8259ecea16edae6e585/curve-fit-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sarweshkumar47/curve-fit/1.1.0/25eb470e7d5be119fb85e1ba6e82fbe33f0cd036/curve-fit-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

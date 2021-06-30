@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/constraint_layout_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        style="@style/card_view_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_view_corner2"
+        app:cardElevation="@dimen/card_view_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/global_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:theme="@style/toolbar_style">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/constraint_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout4"
+                    style="@style/constraint_layout_style"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/toolbar_height"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHeight_percent="0.8"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ir.fararayaneh.erp.custom_views.CustomCircleImageView
+                        android:id="@+id/img_profile_toolbar_chatroom"
+                        style="@style/img_profile_style3"
+                        android:layout_width="@dimen/toolbar_height_image_profile"
+                        android:layout_height="0dp"
+                        app:civ_border_color="?attr/colorGrayAttr"
+                        app:civ_border_width="@dimen/CircleImageBorderSize"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/erp_3" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_profile_toolbar_chatroom"
+                        style="@style/oneLineWhiteText_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:gravity="bottom"
+                        android:textSize="@dimen/txt_report_size_3"
+                        app:autoSizeTextType="none"
+                        app:layout_constraintBottom_toTopOf="@+id/constraintLayout12"
+                        app:layout_constraintStart_toStartOf="@+id/constraintLayout12"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="sdgsdgsgsfgdfgdfgdfgdfgdfgdfgsf" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout12"
+                        style="@style/constraint_layout_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintHeight_percent="0.3"
+                        app:layout_constraintStart_toEndOf="@+id/img_profile_toolbar_chatroom">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txt_online_toolbar_chatroom"
+                            style="@style/oneLineAccentText_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:text="@string/online"
+                            android:textSize="@dimen/txt_report_size_1"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:visibility="visible" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txt_offline_toolbar_chatroom"
+                            style="@style/oneLineGrayText_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:text="@string/offline"
+                            android:textSize="@dimen/txt_report_size_1"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:visibility="visible" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txt_istyping_toolbar_chatroom"
+                            style="@style/oneLineAccentText_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:text="@string/is_typing"
+                            android:textSize="@dimen/txt_report_size_1"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:visibility="visible" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

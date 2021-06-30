@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout6"
+    style="@style/constraint_layout_row_recycle_style1"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_row_report_0">
+
+    <androidx.cardview.widget.CardView
+        style="@style/card_view_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_view_corner"
+        app:cardElevation="@dimen/card_view_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            style="@style/constraint_layout_row_recycle_style1"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card_row_report"
+                style="@style/card_view_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/card_view_corner"
+                app:cardElevation="@dimen/card_view_elevation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/conslay3"
+                    style="@style/constraint_layout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.5">
+
+
+                    <ir.fararayaneh.erp.custom_views.CustomCircleImageView
+                        android:id="@+id/img_attach_row_select"
+                        style="@style/img_profile_style3"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        app:civ_border_color="?attr/colorPrimaryAttr"
+                        app:civ_border_width="@dimen/CircleImageBorderSize2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/include2"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent="0.4"
+                        app:srcCompat="@drawable/ic_attach_epty"
+                        tools:visibility="visible" />
+
+
+                    <include
+                        android:id="@+id/include2"
+                        layout="@layout/layout_global_plus_minus"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent="0.5"
+                        tools:visibility="visible" />
+
+                    <include
+                        android:id="@+id/include7"
+                        layout="@layout/layout_global_select"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/toolbar_parent_height"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/img_attach_row_select"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <include
+                        android:id="@+id/include8"
+                        layout="@layout/layout_globale_state"
+                        android:layout_width="@dimen/stateCircleSize"
+                        android:layout_height="@dimen/stateCircleSize"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_row_report_3"
+                style="@style/card_view_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="@dimen/card_view_corner"
+                app:cardElevation="@dimen/card_view_elevation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/card_row_report">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/conslay5"
+                    style="@style/constraint_layout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.5">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_description_row_select"
+                        style="@style/max_3_min_1_Line_gray_Text_style_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/txt_report_size_1"
+                        android:textColor="?attr/colorBlackAttr"
+                        app:autoSizeTextType="none"
+
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="jjjjjjjjjjjj
+                jjjfffffffffffffffffffffffffffffffffffffffffffffffeeeeeeeeeeeeeeeeeeeeeeeeee
+                jjjjjjjjddddd" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_row_report_2"
+                style="@style/card_view_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="@dimen/card_view_corner"
+                app:cardElevation="@dimen/card_view_elevation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/card_row_report_3">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/conslay4"
+                    style="@style/constraint_layout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/parent_edt_curency_select"
+                        style="@style/material_edit_text_border"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/login_view_height"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_curency_select"
+                            style="@style/material_edit_text_inner_number_decimal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/currency" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/parent_edt_discount_select"
+                        style="@style/material_edit_text_border"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/login_view_height"
+                        app:layout_constraintEnd_toStartOf="@+id/parent_edt_tax_select"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/parent_edt_curency_select">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_discount_select"
+                            style="@style/material_edit_text_inner_number_decimal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/discount_percentage" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/parent_edt_tax_select"
+                        style="@style/material_edit_text_border"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/login_view_height"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/parent_edt_curency_select"
+                        app:layout_constraintWidth_percent="0.5">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_tax_select"
+                            style="@style/material_edit_text_inner_number_decimal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/tax_percentag" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/parent_edt_discount_2_select"
+                        style="@style/material_edit_text_border"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/login_view_height"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/parent_edt_tax_select">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_discount_2_select"
+                            style="@style/material_edit_text_inner_number_decimal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/discount_2" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

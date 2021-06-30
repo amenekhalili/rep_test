@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <stroke android:width="@dimen/btnStrokeWidth"
+        android:color="?attr/colorTransparentAttr"/>
+    <gradient
+        android:angle="0"
+        android:startColor="?attr/colorPrimaryAttr"
+        android:endColor="?attr/colorPrimaryAttr"/>
+    <corners
+        android:bottomLeftRadius="@dimen/btnCorners"
+        android:bottomRightRadius="@dimen/btnCorners"
+        android:topLeftRadius="@dimen/btnCorners"
+        android:topRightRadius="@dimen/btnCorners" />
+</shape>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ********************************************************************************************* -->
+    <style name="Launcher" parent="DefaultAppTheme">
+
+    </style>
+    <style name="btn_style_1" >
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:background">?attr/colorPrimaryAttr</item>
+    </style>
+
+    <style name="btn_style_2" >
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:background">?attr/colorWhiteAttr</item>
+    </style>
+
+    <style name="btn_style_3" >
+        <item name="android:textColor">?attr/colorWhiteAttrEveryWhere</item>
+        <item name="android:maxLines">@integer/MaxLineNumber2</item>
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:background">?attr/colorAccentAttr</item>
+    </style>
+
+    <style name="back_ios_alert_style" >
+        <item name="android:background">?attr/colorLightGrayAttr</item>
+    </style>
+    <!-- ********************************************************************************************* -->
+</resources>

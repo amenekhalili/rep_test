@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <stroke android:width="@dimen/btnStrokeWidth"
+        android:color="@color/colorTransparent"/>
+    <gradient
+        android:angle="0"
+        android:startColor="@color/colorAccent"
+        android:endColor="@color/colorAccent"/>
+    <corners
+        android:bottomLeftRadius="@dimen/btnCorners2"
+        android:bottomRightRadius="@dimen/btnCorners2"
+        android:topLeftRadius="@dimen/btnCorners2"
+        android:topRightRadius="@dimen/btnCorners2" />
+</shape>
+
+    <!--TODO
+      استثنا به دلیل باگ اندروید 19 اینجا از attr استفاده نکردیم
+      چون به عنوان استایل نمیشد از این بکگراند استفاده کنیم و حتما در همه ورژن ها نیاز به بکگراند گرد داریم
+              چون رنگ های اینجا در همه استایل ها یکی است
+
+      -->

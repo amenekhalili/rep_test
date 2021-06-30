@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="arash" />
+        <option name="name" value="Unnamed-0" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel" />
+        <device id="pixel_2" />
+        <device id="Nexus 5X" />
+        <target>android-28</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:bitbucket" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70f292ab-f79b-49cb-a8fd-79d2ada002fc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[WUJ01P5YFA]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ERP" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ERP" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ERP" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\android\project\ERP\key\erpKey.jks" />
+    <option name="KEY_ALIAS" value="erpkey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZCTPSR35vOOWbEiJkF2tiamafA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ApkExportedModule" value="app" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_a307fn-RF8MA2G508R" />
+    <property name="DEBUGGABLE_PROCESS" value="ir.fararayaneh.erp" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="RZCR100B0FR" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-13T13:32:39.147Z" />
+    <property name="ExportApk.ApkPath" value="D:\android\project\ERP\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-viewC:/Users/Farokhi/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/IBase/common_base/BaseView.java_SELECTED" value="BaseView" />
+    <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/attach_albom/AttachAlbumView.java_SELECTED" value="AttachAlbumView" />
+    <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/attach_provider/AttachProviderView.java_SELECTED" value="AttachProviderView" />
+    <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/chat_message/MessageView.java_SELECTED" value="MessageView" />
+    <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsView.java_SELECTED" value="ConfigsView" />
+    <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashView.java_SELECTED" value="SplashView" />
+    <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/warehouse_handling/WarehouseHandlingView.java_SELECTED" value="WarehouseHandlingView" />
+    <property name="android-custom-viewD:/android/project/ERP/searchLibrary/src/main/java/com/mancj/materialsearchbar/MaterialSearchBar.java_SELECTED" value="MaterialSearchBar" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/Farokhi/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/IBase/common_base/BaseView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/attach_albom/AttachAlbumView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/attach_provider/AttachProviderView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/chat_message/MessageView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/warehouse_handling/WarehouseHandlingView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP/searchLibrary/src/main/java/com/mancj/materialsearchbar/MaterialSearchBar.java_selected" value="Custom views" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ERP_2021.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70f292ab-f79b-49cb-a8fd-79d2ada002fc" name="Default Changelist" comment="" />
+      <created>1581314724708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581314724708</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update todo file">
+      <created>1597038728990</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1597038728990</updated>
+    </task>
+    <task id="LOCAL-00019" summary="some refine">
+      <created>1597049079208</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1597049079208</updated>
+    </task>
+    <task id="LOCAL-00020" summary="refine sendEditPacket send and received and rule">
+      <created>1597155164564</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1597155164564</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add chatRoomGUID to body of MessageEditModel">
+      <created>1597647461355</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1597647461355</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add foregroundService for location">
+      <created>1597678276585</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1597678276585</updated>
+    </task>
+    <task id="LOCAL-00023" summary="some refine">
+      <created>1597678347501</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1597678347501</updated>
+    </task>
+    <task id="LOCAL-00024" summary="some refine">
+      <created>1597914948082</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1597914948082</updated>
+    </task>
+    <task id="LOCAL-00025" summary="some refine">
+      <created>1599046199893</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599046199893</updated>
+    </task>
+    <task id="LOCAL-00026" summary="some rule for chat">
+      <created>1599455637404</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599455637405</updated>
+    </task>
+    <task id="LOCAL-00027" summary="some rule for chat">
+      <created>1599459099358</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599459099358</updated>
+    </task>
+    <task id="LOCAL-00028" summary="some rule for chat2">
+      <created>1600058533527</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600058533528</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add sabad.xlsx">
+      <created>1600068607363</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1600068607363</updated>
+    </task>
+    <task id="LOCAL-00030" summary="send edit packet in received message from other in online chatroom">
+      <created>1600497080685</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1600497080685</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add some refine">
+      <created>1601288925677</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601288925678</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add some refine">
+      <created>1601309719304</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601309719304</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add syncMessageMore">
+      <created>1601727627476</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601727627476</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add syncMessageMore-2">
+      <created>1601728294653</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601728294653</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add syncMessageMore-3">
+      <created>1601911785042</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601911785042</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add syncMessageMore-3 (with eror)">
+      <created>1601986577736</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1601986577737</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add syncMessageMore-4">
+      <created>1601990763081</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601990763081</updated>
+    </task>
+    <task id="LOCAL-00038" summary="migration fabric to firebase">
+      <created>1601993494597</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1601993494597</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update gradle to 6.1.1">
+      <created>1601996529599</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601996529599</updated>
+    </task>
+    <task id="LOCAL-00040" summary="commit with error in border of outline text border">
+      <created>1602005389071</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1602005389071</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add  maven { url &quot;https://maven.google.com&quot; }&#10;before google ()&#10;in gradle for resolve some issue">
+      <created>1602050132684</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1602050132684</updated>
+    </task>
+    <task id="LOCAL-00042" summary="upgrade fabric to firebase">
+      <created>1602051607234</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1602051607234</updated>
+    </task>
+    <task id="LOCAL-00043" summary="some refine">
+      <created>1602051911198</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1602051911198</updated>
+    </task>
+    <task id="LOCAL-00044" summary="migrate to kotlin 4.1.10">
+      <created>1602052691651</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1602052691651</updated>
+    </task>
+    <task id="LOCAL-00045" summary="some refine in chatroom">
+      <created>1602082336585</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1602082336585</updated>
+    </task>
+    <task id="LOCAL-00046" summary="push to bitbucket">
+      <created>1602397868835</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1602397868835</updated>
+    </task>
+    <task id="LOCAL-00047" summary="change seenDate to seenCount">
+      <created>1602578477844</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1602578477844</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add TABCLOSED kind">
+      <created>1603039000821</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1603039000821</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add TABLOCK kind">
+      <created>1603088561080</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1603088561080</updated>
+    </task>
+    <task id="LOCAL-00050" summary="update gradles">
+      <created>1617807018737</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1617807018738</updated>
+    </task>
+    <task id="LOCAL-00051" summary="update compressor library and some refine after one year !!">
+      <created>1618668945031</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1618668945032</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add fara test server ip">
+      <created>1618670376403</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1618670376403</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add onNewToken to MyFirebaseMessagingService.class">
+      <created>1619278202286</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1619278202287</updated>
+    </task>
+    <task id="LOCAL-00054" summary="CHANGE WORKER MANAGER MANNER&#10;3.1.0.PREVIEW">
+      <created>1619362362743</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1619362362744</updated>
+    </task>
+    <task id="LOCAL-00055" summary="start AccidentTable.java">
+      <created>1620058395934</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1620058395936</updated>
+    </task>
+    <task id="LOCAL-00056" summary="add needed class for get and set accident and syncaccident">
+      <created>1620223832228</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1620223832229</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add some docs to AttachmentTable">
+      <created>1620486801485</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1620486801486</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add AttachmentTable.longitude AttachmentTable.latitude">
+      <created>1620574442673</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1620574442675</updated>
+    </task>
+    <task id="LOCAL-00059" summary="change AttachProviderPresenter.java for get location and add to InsertAttachmentsFromClientQuery">
+      <created>1620663189605</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1620663189606</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add accident document">
+      <created>1621094710564</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1621094710565</updated>
+    </task>
+    <task id="LOCAL-00061" summary="some change for WarehouseHandling in karoun &#10;(upgrade to 15(3.1.0-preview))">
+      <created>1622704475415</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1622704475417</updated>
+    </task>
+    <task id="LOCAL-00062" summary=" showDisconnectionLayout correction">
+      <created>1623074366760</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1623074366762</updated>
+    </task>
+    <task id="LOCAL-00063" summary="BACKUP DATABASE WERE BE COMMENTED IN SYNCACTIVITY">
+      <created>1623599906189</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1623599906190</updated>
+    </task>
+    <task id="LOCAL-00064" summary="change packet lost manner in PingHandler.java">
+      <created>1623906336171</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1623906336172</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add sort manner for warehouse handling query">
+      <created>1623931183447</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1623931183447</updated>
+    </task>
+    <task id="LOCAL-00066" summary="3.1.1-preview">
+      <created>1623935944076</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1623935944076</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="some refine" />
+    <MESSAGE value="migrate to kotlin 4.1.10" />
+    <MESSAGE value="some refine in chatroom" />
+    <MESSAGE value="push to bitbucket" />
+    <MESSAGE value="change seenDate to seenCount" />
+    <MESSAGE value="add TABCLOSED kind" />
+    <MESSAGE value="add TABLOCK kind" />
+    <MESSAGE value="update gradles" />
+    <MESSAGE value="update compressor library and some refine after one year !!" />
+    <MESSAGE value="add fara test server ip" />
+    <MESSAGE value="add onNewToken to MyFirebaseMessagingService.class" />
+    <MESSAGE value="CHANGE WORKER MANAGER MANNER&#10;3.1.0.PREVIEW" />
+    <MESSAGE value="start AccidentTable.java" />
+    <MESSAGE value="add needed class for get and set accident and syncaccident" />
+    <MESSAGE value="add some docs to AttachmentTable" />
+    <MESSAGE value="add AttachmentTable.longitude AttachmentTable.latitude" />
+    <MESSAGE value="change AttachProviderPresenter.java for get location and add to InsertAttachmentsFromClientQuery" />
+    <MESSAGE value="add accident document" />
+    <MESSAGE value="some change for WarehouseHandling in karoun" />
+    <MESSAGE value="some change for WarehouseHandling in karoun &#10;(upgrade to 15(3.1.0-preview))" />
+    <MESSAGE value=" showDisconnectionLayout correction" />
+    <MESSAGE value="BACKUP DATABASE WERE BE COMMENTED IN SYNCACTIVITY" />
+    <MESSAGE value="change packet lost manner in PingHandler.java" />
+    <MESSAGE value="add sort manner for warehouse handling query" />
+    <MESSAGE value="3.1.1-preview" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.1.1-preview" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="358" y="191" key="#PSD" timestamp="1618290574672">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="358" y="191" key="#PSD/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1618290574672" />
+    <state x="718" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1620662934661">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="718" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1620662934661" />
+    <state x="2638" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1620205990423" />
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1617809362930">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1617809362930" />
+    <state x="763" y="244" key="AndroidCreateXmlResourceDialog" timestamp="1620223520098">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="763" y="244" key="AndroidCreateXmlResourceDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1620223520098" />
+    <state x="2269" y="0" key="CommitChangelistDialog2" timestamp="1623935943282">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="364" y="5" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623599903654" />
+    <state x="2269" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623935943282" />
+    <state width="585" height="582" key="DebuggerActiveHint" timestamp="1623934103552">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="585" height="582" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623921045724" />
+    <state width="585" height="582" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623934103552" />
+    <state width="1863" height="403" key="GridCell.Tab.0.bottom" timestamp="1623943454450">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1863" height="455" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623926419314" />
+    <state width="1863" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623943454450" />
+    <state width="1863" height="403" key="GridCell.Tab.0.center" timestamp="1623943454437">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1863" height="455" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623926419313" />
+    <state width="1863" height="403" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623943454437" />
+    <state width="1863" height="403" key="GridCell.Tab.0.left" timestamp="1623943454401">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1863" height="455" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623926419313" />
+    <state width="1863" height="403" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623943454401" />
+    <state width="1863" height="403" key="GridCell.Tab.0.right" timestamp="1623943454449">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1863" height="455" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623926419313" />
+    <state width="1863" height="403" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623943454449" />
+    <state x="99" y="83" key="SettingsEditor" timestamp="1623595970046">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="99" y="83" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623595970046" />
+    <state width="623" height="607" key="SwitcherDM" timestamp="1619357869370">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="623" height="607" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619357869370" />
+    <state x="2269" y="114" key="Vcs.Push.Dialog.v2" timestamp="1623935982770">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="349" y="114" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623599910489" />
+    <state x="2269" y="114" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623935982770" />
+    <state x="571" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1617809250576">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="571" y="306" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1617809250576" />
+    <state x="2491" y="306" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1617605261821" />
+    <state x="532" y="-1" width="838" height="1032" key="search.everywhere.popup" timestamp="1619268127513">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="532" y="-1" width="838" height="1032" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619268127513" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/adaptors/chat_list_adaptor/ChatListRecAdaptor.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/adaptors/chat_list_adaptor/ChatListRecAdaptor.java</url>
+          <line>241</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/ActivityIntents.java</url>
+          <line>399</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/file_helper/CreateFolderFileHandler.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/PingHandler.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/PingHandler.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsPresenter.java</url>
+          <line>284</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsPresenter.java</url>
+          <line>275</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsPresenter.java</url>
+          <line>272</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashPresenter.java</url>
+          <line>252</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashPresenter.java</url>
+          <line>253</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashPresenter.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/online/NetDataProvider.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/queries/warhouse_queris/GetAllDataFromOneColumnWarehouseQuery.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/queries/warhouse_queris/GetAllDataFromOneColumnWarehouseQuery.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/queries/warhouse_queris/GetAllDataFromOneColumnWarehouseQuery.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/queries/warhouse_queris/GetFirstEditableWarehouseRowQuery.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/queries/warhouse_queris/GetFirstEditableWarehouseRowQuery.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/queries/warhouse_queris/GetAllDataFromOneColumnWarehouseQuery.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/queries/warhouse_queris/GetAllDataFromOneColumnWarehouseQuery.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/data/data_providers/queries/warhouse_queris/GetAllDataFromOneColumnWarehouseQuery.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/package_handler/VersionAppHelper.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/package_handler/VersionAppHelper.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/package_handler/VersionAppHelper.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/package_handler/VersionAppHelper.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashPresenter.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashPresenter.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashPresenter.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="throwable" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

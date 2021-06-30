@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Pradyuman7:ChocoBar:V1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/595284335b0bbba3a289589e40526a85/jetified-ChocoBar-V1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/595284335b0bbba3a289589e40526a85/jetified-ChocoBar-V1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/595284335b0bbba3a289589e40526a85/jetified-ChocoBar-V1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/595284335b0bbba3a289589e40526a85/jetified-ChocoBar-V1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Pradyuman7/ChocoBar/V1.0/78de70daab8f45e6480621fdc8fca0c94243f8/ChocoBar-V1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

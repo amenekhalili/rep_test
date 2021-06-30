@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_album_attach_menu"
+        android:icon="@drawable/ic_add"
+        android:title="@string/New"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/save_album_attach_menu"
+        android:icon="@drawable/ic_verified_white"
+        android:title="@string/ok"
+        app:showAsAction="ifRoom" />
+
+</menu>

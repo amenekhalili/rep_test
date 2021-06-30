@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="CircleImageBorderSize">2dp</dimen>
+    <dimen name="CircleImageBorderSize2">3dp</dimen>
+
+    <dimen name="fabSize">50dp</dimen>
+    <dimen name="fabMaxImageSizeSize">15dp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_height_image_profile">41dp</dimen>
+    <dimen name="half_toolbar_height">28dp</dimen>
+    <dimen name="toolbar_parent_height">66dp</dimen>
+    <dimen name="half_toolbar_parent_height">33dp</dimen>
+    <dimen name="half_toolbar_parent_height_with_margin">23dp</dimen>
+    <dimen name="toolbar_parent_height_10_percent">6.6dp</dimen>
+    <dimen name="toolbar_parent_height_20_percent">13.2dp</dimen>
+    <dimen name="toolbar_big_height">112dp</dimen>
+    <dimen name="toolbar_image_width">24dp</dimen>
+    <dimen name="toolbar_image_start_margin">16dp</dimen>
+
+
+    <dimen name="plus_minus_size">40dp</dimen>
+
+
+
+    <dimen name="padding1">1dp</dimen>
+    <dimen name="padding_row_report_0">15dp</dimen>
+    <dimen name="padding_row_report">20dp</dimen>
+    <dimen name="padding_row_report_2">30dp</dimen>
+    <dimen name="padding_row_report_3">10dp</dimen>
+    <dimen name="padding_row_report_4">5dp</dimen>
+    <dimen name="padding_row_chatroom">10dp</dimen>
+    <dimen name="constraint_in_card_view_padding">1dp</dimen>
+
+    <dimen name="margin1">20dp</dimen>
+    <dimen name="margin2">15dp</dimen>
+    <dimen name="margin3">5dp</dimen>
+    <dimen name="row_recycler_margin1">1dp</dimen>
+    <dimen name="row_recycler_margin2">4dp</dimen>
+    <dimen name="row_recycler_margin3">9dp</dimen>
+
+    <dimen name="row_detail_width">180dp</dimen>
+
+
+    <dimen name="scroll_bar_size">0dp</dimen>
+
+    <dimen name="chat_list_row">70dp</dimen>
+
+
+
+    <dimen name="np_selected_text_size">20dp</dimen>
+    <dimen name="np_text_size">12dp</dimen>
+
+    <dimen name="dialoge_height">200dp</dimen>
+
+    <dimen name="login_view_height">60dp</dimen>
+    <dimen name="login_view_height_2">100dp</dimen>
+
+    <dimen name="mainImageSize">70dp</dimen>
+
+    <dimen name="card_view_corner">5dp</dimen>
+    <dimen name="card_view_corner2">0dp</dimen>
+    <dimen name="card_view_elevation">0dp</dimen>
+    <dimen name="card_view_elevation2">50dp</dimen>
+
+    <dimen name="widthHeightVectorDrawable">24dp</dimen>
+    <dimen name="widthHeightVectorDrawable2">20dp</dimen>
+
+    <dimen name="NavigationDrawerImageSize">64dp</dimen>
+    <dimen name="NavigationDrawerImageSize_2">80dp</dimen>
+
+    <dimen name="fragment_margin">2dp</dimen>
+
+    <dimen name="progressUnreachedBarHeight">3dp</dimen>
+    <dimen name="progressReachedBarHeight">4dp</dimen>
+    <dimen name="progress_text_offset">1dp</dimen>
+
+
+    <dimen name="btnCorners">5dp</dimen>
+    <dimen name="btnCorners2">150dp</dimen>
+    <dimen name="btnMargin">3dp</dimen>
+    <dimen name="btnStrokeWidth">1dp</dimen>
+
+
+    <dimen name="ios_alert_Corners">16dp</dimen>
+
+    <dimen name="fancy_alert_Corners">40dp</dimen>
+    <dimen name="fancy_alert_Corners_2">60dp</dimen>
+
+
+    <dimen name="spinner_image_size">30dp</dimen>
+    <dimen name="spinner_search_box_size">40dp</dimen>
+    <dimen name="spinner_search_list_view_size">300dp</dimen>
+    <dimen name="spinner_search_list_view_divider">0.1dp</dimen>
+
+
+    <dimen name="state_report_size">8sp</dimen>
+    <dimen name="txt_report_size_1">10sp</dimen>
+    <dimen name="txt_report_size_2">12sp</dimen>
+    <dimen name="txt_report_size_3">14sp</dimen>
+    <dimen name="txt_report_size_4">16sp</dimen>
+    <dimen name="txt_report_size_5">18sp</dimen>
+
+
+    <dimen name="stateCircleSize">8dp</dimen>
+
+    <dimen name="margin_toolbar_icon">8dp</dimen>
+
+
+
+    <dimen name="linlay_margin">2dp</dimen>
+    <dimen name="linlay_margin_2">0dp</dimen>
+    <dimen name="linlay_state_Size">5dp</dimen>
+    <dimen name="img_report_height">20dp</dimen>
+
+
+</resources>

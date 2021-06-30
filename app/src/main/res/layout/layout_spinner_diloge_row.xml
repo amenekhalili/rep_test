@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txt_row_spinner_dialog"
+    style="@style/max_8_min_1_Line_blackText_style_value"
+    android:layout_width="match_parent"
+    android:minHeight="@dimen/toolbar_height"
+    android:layout_height="wrap_content"
+    android:textSize="16sp">
+
+</androidx.appcompat.widget.AppCompatTextView>

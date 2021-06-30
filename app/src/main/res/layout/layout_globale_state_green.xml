@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.florent37.shapeofview.shapes.CircleView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/circleView"
+    style="@style/shapeView_style"
+    android:layout_width="@dimen/stateCircleSize"
+    android:layout_height="@dimen/stateCircleSize"
+    android:layout_marginStart="3dp"
+    android:layout_marginTop="3dp"
+    app:shape_circle_borderWidth="0dp"
+    >
+
+    <FrameLayout
+        android:id="@+id/frameState"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorGreenAttr" />
+
+</com.github.florent37.shapeofview.shapes.CircleView>

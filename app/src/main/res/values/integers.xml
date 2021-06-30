@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="MaxLineNumber1">5</integer>
+    <integer name="lineNumber1">1</integer>
+    <integer name="MaxLineNumber2">1</integer>
+    <integer name="MaxLineNumber3">2</integer>
+    <integer name="MaxLineNumber4">3</integer>
+    <integer name="MaxLineNumber5">4</integer>
+    <integer name="MaxLineNumber6">8</integer>
+    <integer name="MaxLineNumber7">10</integer>
+    <integer name="MaxLineNumber8">20</integer>
+    <integer name="MaxLineNumber9">5</integer>
+    <integer name="MaxLineNumber10">1000</integer>
+    <integer name="MinLineNumber1">8</integer>
+    <integer name="MaxLen1">9</integer>
+    <integer name="max_ip">254</integer>
+    <integer name="min_ip">1</integer>
+
+    <integer name="max_search_suggestion">3</integer>
+</resources>

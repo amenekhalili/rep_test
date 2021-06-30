@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="Theme.MaterialComponents.NoActionBar.Bridge" />
+
+
+    <style name="prog_style">
+        <item name="indicatorName">BallGridPulseIndicator</item>
+        <item name="indicatorColor">?attr/colorAccentAttr</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?attr/colorTransparentAttr</item>
+    </style>
+
+
+
+
+    <style name="DefaultAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+
+        <item name="colorPrimaryAttr">@color/colorPrimary</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark</item>
+        <item name="colorAccentAttr">@color/colorAccent</item>
+        <item name="colorBlackAttr">@color/colorBlack</item>
+        <item name="colorWhiteAttr">@color/colorWhite</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere</item>
+        <item name="colorRedAttr">@color/colorRed</item>
+        <item name="colorOrangeAttr">@color/colorOrange</item>
+        <item name="colorBlueAttr">@color/colorBlue</item>
+        <item name="colorGreenAttr">@color/colorGreen</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen</item>
+        <item name="colorPurpleAttr">@color/colorPurple</item>
+        <item name="colorGrayAttr">@color/colorGray</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray</item>
+        <item name="colorTransparentAttr">@color/colorTransparent</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark</item>
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorAccentAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+
+    <style name="SecondAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary2</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark2</item>
+        <item name="colorAccentAttr">@color/colorAccent2</item>
+        <item name="colorBlackAttr">@color/colorBlack2</item>
+        <item name="colorWhiteAttr">@color/colorWhite2</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere2</item>
+        <item name="colorRedAttr">@color/colorRed2</item>
+        <item name="colorOrangeAttr">@color/colorOrange2</item>
+        <item name="colorBlueAttr">@color/colorBlue2</item>
+        <item name="colorGreenAttr">@color/colorGreen2</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen2</item>
+        <item name="colorPurpleAttr">@color/colorPurple2</item>
+        <item name="colorGrayAttr">@color/colorGray2</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray2</item>
+        <item name="colorTransparentAttr">@color/colorTransparent2</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark2</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark2</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorAccentAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+    <style name="ThirdAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary3</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark3</item>
+        <item name="colorAccentAttr">@color/colorAccent3</item>
+        <item name="colorBlackAttr">@color/colorBlack3</item>
+        <item name="colorWhiteAttr">@color/colorWhite3</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere3</item>
+        <item name="colorRedAttr">@color/colorRed3</item>
+        <item name="colorOrangeAttr">@color/colorOrange3</item>
+        <item name="colorBlueAttr">@color/colorBlue3</item>
+        <item name="colorGreenAttr">@color/colorGreen3</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen3</item>
+        <item name="colorPurpleAttr">@color/colorPurple3</item>
+        <item name="colorGrayAttr">@color/colorGray3</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray3</item>
+        <item name="colorTransparentAttr">@color/colorTransparent3</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark3</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark3</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorAccentAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="ForthAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary4</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark4</item>
+        <item name="colorAccentAttr">@color/colorAccent4</item>
+        <item name="colorBlackAttr">@color/colorBlack4</item>
+        <item name="colorWhiteAttr">@color/colorWhite4</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere4</item>
+        <item name="colorRedAttr">@color/colorRed4</item>
+        <item name="colorOrangeAttr">@color/colorOrange4</item>
+        <item name="colorBlueAttr">@color/colorBlue4</item>
+        <item name="colorGreenAttr">@color/colorGreen4</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen4</item>
+        <item name="colorPurpleAttr">@color/colorPurple4</item>
+        <item name="colorGrayAttr">@color/colorGray4</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray4</item>
+        <item name="colorTransparentAttr">@color/colorTransparent4</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark4</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark4</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorAccentAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="FifthAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary5</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark5</item>
+        <item name="colorAccentAttr">@color/colorAccent5</item>
+        <item name="colorBlackAttr">@color/colorBlack5</item>
+        <item name="colorWhiteAttr">@color/colorWhite5</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere5</item>
+        <item name="colorRedAttr">@color/colorRed5</item>
+        <item name="colorOrangeAttr">@color/colorOrange5</item>
+        <item name="colorBlueAttr">@color/colorBlue5</item>
+        <item name="colorGreenAttr">@color/colorGreen5</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen5</item>
+        <item name="colorPurpleAttr">@color/colorPurple5</item>
+        <item name="colorGrayAttr">@color/colorGray5</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray5</item>
+        <item name="colorTransparentAttr">@color/colorTransparent5</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark5</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark5</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorAccentAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="SixAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary6</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark6</item>
+        <item name="colorAccentAttr">@color/colorAccent6</item>
+        <item name="colorBlackAttr">@color/colorBlack6</item>
+        <item name="colorWhiteAttr">@color/colorWhite6</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere6</item>
+        <item name="colorRedAttr">@color/colorRed6</item>
+        <item name="colorOrangeAttr">@color/colorOrange6</item>
+        <item name="colorBlueAttr">@color/colorBlue6</item>
+        <item name="colorGreenAttr">@color/colorGreen6</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen6</item>
+        <item name="colorPurpleAttr">@color/colorPurple6</item>
+        <item name="colorGrayAttr">@color/colorGray6</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray6</item>
+        <item name="colorTransparentAttr">@color/colorTransparent6</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark6</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark6</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorAccentAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="SevenAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary7</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark7</item>
+        <item name="colorAccentAttr">@color/colorAccent7</item>
+        <item name="colorBlackAttr">@color/colorBlack7</item>
+        <item name="colorWhiteAttr">@color/colorWhite7</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere7</item>
+        <item name="colorRedAttr">@color/colorRed7</item>
+        <item name="colorOrangeAttr">@color/colorOrange7</item>
+        <item name="colorBlueAttr">@color/colorBlue7</item>
+        <item name="colorGreenAttr">@color/colorGreen7</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen7</item>
+        <item name="colorPurpleAttr">@color/colorPurple7</item>
+        <item name="colorGrayAttr">@color/colorGray7</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray7</item>
+        <item name="colorTransparentAttr">@color/colorTransparent7</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark7</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark7</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorAccentAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="EightAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimaryAttr">@color/colorPrimary8</item>
+        <item name="colorPrimaryDarkAttr">@color/colorPrimaryDark8</item>
+        <item name="colorAccentAttr">@color/colorAccent8</item>
+        <item name="colorBlackAttr">@color/colorBlack8</item>
+        <item name="colorWhiteAttr">@color/colorWhite8</item>
+        <item name="colorWhiteAttrEveryWhere">@color/colorWhiteEveryWhere8</item>
+        <item name="colorRedAttr">@color/colorRed8</item>
+        <item name="colorOrangeAttr">@color/colorOrange8</item>
+        <item name="colorBlueAttr">@color/colorBlue8</item>
+        <item name="colorGreenAttr">@color/colorGreen8</item>
+        <item name="colorBlueGreenAttr">@color/colorBlueGreen8</item>
+        <item name="colorPurpleAttr">@color/colorPurple8</item>
+        <item name="colorGrayAttr">@color/colorGray8</item>
+        <item name="colorLightGrayAttr">@color/colorLightGray8</item>
+        <item name="colorTransparentAttr">@color/colorTransparent8</item>
+        <item name="colorTransparentDarkAttr">@color/colorTransparentDark8</item>
+        <item name="colorCoalDarkDarkAttr">@color/colorCoalDark8</item>
+
+        <!-- ***************************************************** -->
+        <item name="colorPrimary">?attr/colorPrimaryAttr</item>
+        <item name="colorPrimaryDark">?attr/colorPrimaryDarkAttr</item>
+        <item name="colorAccent">?attr/colorAccentAttr</item>
+        <item name="android:textColor">?attr/colorBlackAttr</item>
+        <item name="android:textColorHint">?attr/colorAccentAttr</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/MaxLineNumber1</item>
+        <item name="android:minLines">@integer/lineNumber1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+</resources>

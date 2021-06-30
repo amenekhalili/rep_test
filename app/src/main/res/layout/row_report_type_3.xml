@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/constraint_layout_row_recycle_style1"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_row_report">
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout2"
+                    style="@style/constraint_layout_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorGrayAttr"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <include
+                        android:id="@+id/include8"
+                        layout="@layout/layout_globale_state"
+                        android:layout_width="@dimen/stateCircleSize"
+                        android:layout_height="@dimen/stateCircleSize"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_form_date_row_report"
+                        style="@style/oneLineWhiteText_style"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/txt_report_size_2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/txt_form_number_row_report"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        tools:text="dgddgfdgdgdgfdgdfg" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_form_number_row_report"
+                        style="@style/oneLineWhiteText_style"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textSize="@dimen/txt_report_size_3"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.49"
+                        app:layout_constraintWidth_percent="0.5"
+                        tools:text="45556454564565" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    style="@style/constraint_layout_style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout11"
+                            style="@style/constraint_layout_style"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintWidth_percent="0.5">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_val1_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_val2_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_val1_row_report"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_val3_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_val2_row_report"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_val4_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_val3_row_report"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_val5_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_val4_row_report"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_val6_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_val5_row_report"
+                                tools:text="hhh8gh" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            style="@style/constraint_layout_style"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="1dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/constraintLayout11"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_name1_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_name2_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_name1_row_report"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_name3_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_name2_row_report"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_name4_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_name3_row_report"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_name5_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_name4_row_report"
+                                tools:text="hhh8gh" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txt_name6_row_report"
+                                style="@style/oneLineGrayText_white_backstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="1dp"
+
+                                android:textSize="@dimen/txt_report_size_1"
+                                app:autoSizeTextType="none"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/txt_name5_row_report"
+                                tools:text="hhh8gh" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

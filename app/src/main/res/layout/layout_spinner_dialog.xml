@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/linear_layout_style"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/spinnerMainView"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/spinerTitle"
+        style="@style/oneLineBlackText_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <LinearLayout
+            style="@style/linear_layout_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                style="@style/img_style"
+                android:id="@+id/searchIcon"
+                android:layout_width="@dimen/spinner_image_size"
+                android:layout_height="@dimen/spinner_image_size"
+                app:srcCompat="@drawable/ic_search" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/spinner_search_Box"
+                style="@style/oneLineGray_edit_text_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spinner_search_box_size"
+                android:layout_marginStart="@dimen/margin3"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.1dp"
+            android:background="#d1d1d1" />
+
+        <ListView
+            style="@style/search_spinner_list_view_style"
+            android:id="@+id/spinner_list_view" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/oneLineBlackText_style"
+            android:clickable="true"
+            android:layout_gravity="end"
+            android:id="@+id/spinner_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+
+</LinearLayout>
