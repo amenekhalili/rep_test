@@ -19,7 +19,7 @@ import ir.fararayaneh.erp.R;
 import ir.fararayaneh.erp.commons.CommonComboFormType;
 import ir.fararayaneh.erp.data.models.middle.ComboFormModel;
 
-public class ComboFormRecAdaptor extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements IClickRowComboFormRecHolderListener {
+public class  ComboFormRecAdaptor extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements IClickRowComboFormRecHolderListener {
 
     private Context context;
     private IClickComboFormRecAdaptor clickComboFormRecAdaptor;

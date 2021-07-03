@@ -40,22 +40,20 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:bitbucket" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70f292ab-f79b-49cb-a8fd-79d2ada002fc" name="Default Changelist" comment="" />
+    <list default="true" id="70f292ab-f79b-49cb-a8fd-79d2ada002fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/adaptors/combo_form_adaptor/ComboFormRecAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/adaptors/combo_form_adaptor/ComboFormRecAdaptor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[WUJ01P5YFA]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -148,6 +146,9 @@
     <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashView.java_SELECTED" value="SplashView" />
     <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/warehouse_handling/WarehouseHandlingView.java_SELECTED" value="WarehouseHandlingView" />
     <property name="android-custom-viewD:/android/project/ERP/searchLibrary/src/main/java/com/mancj/materialsearchbar/MaterialSearchBar.java_SELECTED" value="MaterialSearchBar" />
+    <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/chat_list/ChatListView.java_SELECTED" value="ChatListView" />
+    <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsView.java_SELECTED" value="ConfigsView" />
+    <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/task/TaskView.java_SELECTED" value="TaskView" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-previewC:/Users/Farokhi/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
@@ -159,6 +160,9 @@
     <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/warehouse_handling/WarehouseHandlingView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP/searchLibrary/src/main/java/com/mancj/materialsearchbar/MaterialSearchBar.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/chat_list/ChatListView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/task/TaskView.java_selected" value="Custom views" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
@@ -752,21 +756,6 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/PingHandler.java</url>
           <line>50</line>
           <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsPresenter.java</url>
-          <line>284</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsPresenter.java</url>
-          <line>275</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsPresenter.java</url>
-          <line>272</line>
-          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/splash/SplashPresenter.java</url>
