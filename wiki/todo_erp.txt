@@ -189,3 +189,4 @@ http://pm2.keymetrics.io/docs/usage/cluster-mode/
 countryDivision
 که دیتا محدود باشد
 //----------------------------------
+Firebase Android BoM برای به روز رسانی اتوماتیک

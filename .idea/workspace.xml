@@ -45,8 +45,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f292ab-f79b-49cb-a8fd-79d2ada002fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/adaptors/combo_form_adaptor/ComboFormRecAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/adaptors/combo_form_adaptor/ComboFormRecAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/todo_erp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/todo_erp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +107,11 @@
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Arash Eghtedar &lt;arash.deve@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -150,7 +156,7 @@
     <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsView.java_SELECTED" value="ConfigsView" />
     <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/task/TaskView.java_SELECTED" value="TaskView" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../khalili/realmproject" />
     <property name="multi-representation-previewC:/Users/Farokhi/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/IBase/common_base/BaseView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/attach_albom/AttachAlbumView.java_selected" value="Custom views" />
@@ -164,7 +170,7 @@
     <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/task/TaskView.java_selected" value="Custom views" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -251,13 +257,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581314724708</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update todo file">
-      <created>1597038728990</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1597038728990</updated>
     </task>
     <task id="LOCAL-00019" summary="some refine">
       <created>1597049079208</created>
@@ -595,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623935944076</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="some refinement in docs">
+      <created>1625315089590</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1625315089591</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -626,7 +632,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="some refine" />
     <MESSAGE value="migrate to kotlin 4.1.10" />
     <MESSAGE value="some refine in chatroom" />
     <MESSAGE value="push to bitbucket" />
@@ -651,13 +656,14 @@
     <MESSAGE value="change packet lost manner in PingHandler.java" />
     <MESSAGE value="add sort manner for warehouse handling query" />
     <MESSAGE value="3.1.1-preview" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.1.1-preview" />
+    <MESSAGE value="some refinement in docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="some refinement in docs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="358" y="191" key="#PSD" timestamp="1618290574672">
+    <state x="358" y="191" key="#PSD" timestamp="1625549402596">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="358" y="191" key="#PSD/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1618290574672" />
+    <state x="358" y="191" key="#PSD/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1625549402596" />
     <state x="718" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1620662934661">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -671,16 +677,20 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="763" y="244" key="AndroidCreateXmlResourceDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1620223520098" />
-    <state x="2269" y="0" key="CommitChangelistDialog2" timestamp="1623935943282">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="364" y="5" key="CommitChangelistDialog2" timestamp="1625315088369">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="364" y="5" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623599903654" />
+    <state x="364" y="5" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1625315088369" />
     <state x="2269" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623935943282" />
     <state width="585" height="582" key="DebuggerActiveHint" timestamp="1623934103552">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="585" height="582" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623921045724" />
     <state width="585" height="582" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623934103552" />
+    <state x="687" y="220" key="FileChooserDialogImpl" timestamp="1625637064663">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="687" y="220" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1625637064663" />
     <state width="1863" height="403" key="GridCell.Tab.0.bottom" timestamp="1623943454450">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -709,10 +719,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="623" height="607" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619357869370" />
-    <state x="2269" y="114" key="Vcs.Push.Dialog.v2" timestamp="1623935982770">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="349" y="114" key="Vcs.Push.Dialog.v2" timestamp="1625315098251">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="349" y="114" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1623599910489" />
+    <state x="349" y="114" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1625315098251" />
     <state x="2269" y="114" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623935982770" />
     <state x="571" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1617809250576">
       <screen x="0" y="0" width="1920" height="1050" />
