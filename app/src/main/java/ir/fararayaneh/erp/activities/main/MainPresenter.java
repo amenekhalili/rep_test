@@ -138,12 +138,12 @@ public class MainPresenter extends BasePresenter<MainView> {
 
             @Override
             public void clickAbout() {
-                BrowserIntentHandler.handler(context, CommonUrls.FARA_WEB_SITE_URL);
+                BrowserIntentHandler.handler(getView().getActivity(), CommonUrls.FARA_WEB_SITE_URL);
             }
 
             @Override
             public void clickSupport() {
-                CallIntentHandler.handler(context, Commons.SUPPORT_PHONE_CALLS);
+                CallIntentHandler.handler(getView().getActivity(), Commons.SUPPORT_PHONE_CALLS);
             }
 
             @Override

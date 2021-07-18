@@ -7,24 +7,27 @@ import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
 
+import ir.fararayaneh.erp.IBase.common_base.BaseActivity;
 import ir.fararayaneh.erp.commons.CommonRequestCodes;
+import ir.fararayaneh.erp.commons.CommonsLogErrorNumber;
 import ir.fararayaneh.erp.utils.logger.ThrowableLoggerHelper;
 
 public class FileIntentHandler {
 
-    public static void goToFile(Activity activity){
+    public static void goToFile(BaseActivity activity) {
 
-try{
-      Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-      intent.setType("*/*");
-      intent.addCategory(Intent.CATEGORY_OPENABLE);
-      intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
-      //Intent intent2 = Intent.createChooser(intent, activity.getResources().getString(R.string.error));
-      activity.startActivityForResult(intent, CommonRequestCodes.FILE);
-    }catch (Exception e) {
-        Log.i("arash", "FileIntentHandler: "+e.getMessage());
-        //todo : return error to activity
-    }
+        try {
+            Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+            intent.setType("*/*");
+            intent.addCategory(Intent.CATEGORY_OPENABLE);
+            intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
+            //Intent intent2 = Intent.createChooser(intent, activity.getResources().getString(R.string.error));
+            activity.startActivityForResult(intent, CommonRequestCodes.FILE);
+        } catch (Exception e) {
+            if (activity.getView() != null) {
+                activity.getView().showMessageSomeProblems(CommonsLogErrorNumber.error_137);
+            }
+        }
     }
 
 
@@ -66,7 +69,7 @@ try{
             // Apk files
         } else if (mUri.toString().contains(".apk")) {
             intent.setDataAndType(mUri, "application/vnd.android.package-archive");
-            Log.i("arash", "openExistFile: apk apk apk apk "+mUri.getPath());
+            Log.i("arash", "openExistFile: apk apk apk apk " + mUri.getPath());
         } else {
             intent.setDataAndType(mUri, "*/*");// <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
         }
@@ -75,7 +78,7 @@ try{
         try {
             context.startActivity(intent);
         } catch (ActivityNotFoundException e) {
-            ThrowableLoggerHelper.logMyThrowable( e.getMessage() + "/***FileIntentHandler***openExistFile");
+            ThrowableLoggerHelper.logMyThrowable(e.getMessage() + "/***FileIntentHandler***openExistFile");
 
         }
     }

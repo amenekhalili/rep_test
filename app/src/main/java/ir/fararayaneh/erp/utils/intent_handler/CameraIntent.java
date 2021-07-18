@@ -8,18 +8,21 @@ import android.util.Log;
 
 import java.io.File;
 
+import ir.fararayaneh.erp.IBase.common_base.BaseActivity;
 import ir.fararayaneh.erp.commons.CommonRequestCodes;
+import ir.fararayaneh.erp.commons.CommonsLogErrorNumber;
 
 public class CameraIntent {
 
-    public static void openCamera(Activity activity, Uri uri){
+    public static void openCamera(BaseActivity activity, Uri uri){
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
         try{
             activity.startActivityForResult(intent, CommonRequestCodes.CAMERA);
         }catch (Exception e) {
-            Log.i("arash", "openCamera: "+e.getMessage());
-            //todo : return error to activity
+            if(activity.getView()!=null){
+                activity.getView().showMessageSomeProblems(CommonsLogErrorNumber.error_135);
+            }
         }
 
 

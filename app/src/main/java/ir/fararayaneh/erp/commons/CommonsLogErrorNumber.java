@@ -134,4 +134,10 @@ public class CommonsLogErrorNumber {
     public static final String error_131 = "[Err :131] -->";
     public static final String error_132 = "[Err :132] -->";
     public static final String error_133 = "[Err :133] -->";
+    public static final String error_134 = "[Err :134] -->";
+    public static final String error_135 = "[Err :135] -->";
+    public static final String error_136 = "[Err :136] -->";
+    public static final String error_137 = "[Err :137] -->";
+    public static final String error_138 = "[Err :138] -->";
+    public static final String error_139 = "[Err :139] -->";
 }

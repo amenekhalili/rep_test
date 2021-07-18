@@ -5,14 +5,18 @@ import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
 
+import ir.fararayaneh.erp.IBase.common_base.BaseActivity;
+import ir.fararayaneh.erp.commons.CommonsLogErrorNumber;
+
 public class BrowserIntentHandler {
 
-    public static void handler(Context context, String url) {
+    public static void handler(BaseActivity activity, String url) {
         try{
-        context.startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url)));
+            activity.startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url)));
     }catch (Exception e) {
-        Log.i("arash", "BrowserIntentHandler: "+e.getMessage());
-        //todo : return error to activity
+            if(activity.getView()!=null){
+                activity.getView().showMessageSomeProblems(CommonsLogErrorNumber.error_139);
+            }
     }
     }
 }

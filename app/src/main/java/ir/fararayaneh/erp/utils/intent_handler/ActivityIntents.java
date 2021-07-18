@@ -134,7 +134,6 @@ public class ActivityIntents {
         Intent intent = new Intent(activity, AttachProviderActivity.class);
         intent.putExtras(IntentSenderHelper.setIntentData(intentModel));
         activity.startActivityForResult(intent, CommonRequestCodes.GET_URI_LIST_FROM_ATTACHMENT);
-
     }
 
 
