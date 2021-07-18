@@ -69,6 +69,8 @@ public class AttachProviderView extends BaseView {
         this.iAttachProviderListener = iAttachProviderListener;
     }
 
+
+
     @OnClick({R.id.img_rot_left_crop_layout,R.id.img_rot_right_crop_layout,R.id.img_confirm_crop_layout ,R.id.btn_confirm_description_layout})
     public void clickAttachProviderAct(View view) {
         switch (view.getId()) {

@@ -47,7 +47,7 @@ public class AttachAlbumListDataProvider implements IDataProvider<List<AttachAlb
      */
     private DownloadState getProperDownloadState(String fileName) {
         if( CheckHaveFile.haveFile(CommonsDownloadFile.DOWNLOAD_FILE_FOLDER_NAME,fileName)){
-            if(FileSizeHelper.getFileSize(CreateFolderFileHandler.createFile(CommonsDownloadFile.DOWNLOAD_FILE_FOLDER_NAME,fileName))
+            if(FileSizeHelper.getFileSize(CreateFolderFileHandler.createFile(CommonsDownloadFile. DOWNLOAD_FILE_FOLDER_NAME,fileName))
                     < CommonsDownloadFile.MINIMUM_FILE_SIZE_FOR_DOWNLOAD){
                 DeleteFileHelper.delete(MimeTypeHandler.getFilePathFromName(CommonsDownloadFile.DOWNLOAD_FILE_FOLDER_NAME,fileName));
                 return DownloadState.BEFORE_DOWNLOAD;

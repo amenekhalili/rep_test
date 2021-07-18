@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.fede987:status-bar-alert:1.0.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5edbfdb62a907546006799b433648df/jetified-status-bar-alert-1.0.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/98ee281c1b391adafcd22db6772b4ae8/jetified-status-bar-alert-1.0.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5edbfdb62a907546006799b433648df/jetified-status-bar-alert-1.0.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5edbfdb62a907546006799b433648df/jetified-status-bar-alert-1.0.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75d7009d35a8ffa41a0ae3ac3042b4e7/jetified-status-bar-alert-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75d7009d35a8ffa41a0ae3ac3042b4e7/jetified-status-bar-alert-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75d7009d35a8ffa41a0ae3ac3042b4e7/jetified-status-bar-alert-1.0.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

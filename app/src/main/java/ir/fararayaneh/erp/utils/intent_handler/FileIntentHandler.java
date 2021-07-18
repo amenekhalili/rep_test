@@ -14,13 +14,17 @@ public class FileIntentHandler {
 
     public static void goToFile(Activity activity){
 
-
+try{
       Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
       intent.setType("*/*");
       intent.addCategory(Intent.CATEGORY_OPENABLE);
       intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
       //Intent intent2 = Intent.createChooser(intent, activity.getResources().getString(R.string.error));
       activity.startActivityForResult(intent, CommonRequestCodes.FILE);
+    }catch (Exception e) {
+        Log.i("arash", "FileIntentHandler: "+e.getMessage());
+        //todo : return error to activity
+    }
     }
 
 

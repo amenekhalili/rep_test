@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.infstory:proguard-snippets:1.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e76e51b8244cc194b8fac4252dc8fe83/jetified-proguard-snippets-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f9d89ed6954010fc075f358537bc5ee/jetified-proguard-snippets-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e76e51b8244cc194b8fac4252dc8fe83/jetified-proguard-snippets-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e76e51b8244cc194b8fac4252dc8fe83/jetified-proguard-snippets-1.0.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee7142b2642e4feea033269567ef4b2b/jetified-proguard-snippets-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee7142b2642e4feea033269567ef4b2b/jetified-proguard-snippets-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ee7142b2642e4feea033269567ef4b2b/jetified-proguard-snippets-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.infstory/proguard-snippets/1.0.0/1f65d96d5b5ad977ba347cfc8d107a85e2677b3/proguard-snippets-1.0.0-javadoc.jar!/" />

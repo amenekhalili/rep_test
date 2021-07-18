@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.work:work-multiprocess:2.5.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f730af1252bfbcf46afa38a9366b632/jetified-work-multiprocess-2.5.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4aaef65760d134500657fb445e9bace2/jetified-work-multiprocess-2.5.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f730af1252bfbcf46afa38a9366b632/jetified-work-multiprocess-2.5.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f730af1252bfbcf46afa38a9366b632/jetified-work-multiprocess-2.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f730af1252bfbcf46afa38a9366b632/jetified-work-multiprocess-2.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f730af1252bfbcf46afa38a9366b632/jetified-work-multiprocess-2.5.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

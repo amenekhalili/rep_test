@@ -151,7 +151,8 @@ dependencies {
     //**************************************************************
     implementation 'com.github.adrielcafe:AndroidAudioRecorder:0.3.0'
     //**************************************************************
-    implementation 'gun0912.ted:tedpermission-rx2:2.2.2'
+   // implementation 'gun0912.ted:tedpermission-rx2:2.2.2'
+    implementation   'io.github.ParkSangGwon:tedpermission-rx2:2.3.0'
     //**************************************************************
 
     implementation 'jp.wasabeef:blurry:3.0.0'

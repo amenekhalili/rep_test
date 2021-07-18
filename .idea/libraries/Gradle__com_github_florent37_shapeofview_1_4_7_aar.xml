@@ -4,9 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f9a017bfb5d00bf7c85a0e7304068ea/jetified-shapeofview-1.4.7/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f9a017bfb5d00bf7c85a0e7304068ea/jetified-shapeofview-1.4.7/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f9a017bfb5d00bf7c85a0e7304068ea/jetified-shapeofview-1.4.7/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f9a017bfb5d00bf7c85a0e7304068ea/jetified-shapeofview-1.4.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f9a017bfb5d00bf7c85a0e7304068ea/jetified-shapeofview-1.4.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1f9a017bfb5d00bf7c85a0e7304068ea/jetified-shapeofview-1.4.7/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.amulyakhare:com.amulyakhare.textdrawable:1.0.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1aa294400a0cd061d8a93764620d409d/jetified-com.amulyakhare.textdrawable-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3cfe56ff14650b5e21948c9bb4ba65a/jetified-com.amulyakhare.textdrawable-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1aa294400a0cd061d8a93764620d409d/jetified-com.amulyakhare.textdrawable-1.0.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1aa294400a0cd061d8a93764620d409d/jetified-com.amulyakhare.textdrawable-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1aa294400a0cd061d8a93764620d409d/jetified-com.amulyakhare.textdrawable-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1aa294400a0cd061d8a93764620d409d/jetified-com.amulyakhare.textdrawable-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: id.zelory:compressor:2.1.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1913542a87824d101e045eae096275a/jetified-compressor-2.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/89912a537a77000bd1bddacbec9f1ee5/jetified-compressor-2.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1913542a87824d101e045eae096275a/jetified-compressor-2.1.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1913542a87824d101e045eae096275a/jetified-compressor-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1913542a87824d101e045eae096275a/jetified-compressor-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c1913542a87824d101e045eae096275a/jetified-compressor-2.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
