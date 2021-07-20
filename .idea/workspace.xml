@@ -47,23 +47,45 @@
     <list default="true" id="70f292ab-f79b-49cb-a8fd-79d2ada002fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/ERP_2021.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/ERP_2021.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/searchLibrary/ERP_2021.searchLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/searchLibrary/ERP_2021.searchLibrary.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/main/MainPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/activities/main/MainPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/commons/CommonsLogErrorNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/commons/CommonsLogErrorNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/ActivityIntents.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/ActivityIntents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/BrowserIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/BrowserIntentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/CallIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/CallIntentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/CameraIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/CameraIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/ContactIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/ContactIntentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/FileIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/FileIntentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/GalleryIntentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ir/fararayaneh/erp/utils/intent_handler/GalleryIntentHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RF8MA2G508R]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -162,12 +184,14 @@
     <property name="android-custom-viewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/warehouse_handling/WarehouseHandlingView.java_SELECTED" value="WarehouseHandlingView" />
     <property name="android-custom-viewD:/android/project/ERP/searchLibrary/src/main/java/com/mancj/materialsearchbar/MaterialSearchBar.java_SELECTED" value="MaterialSearchBar" />
     <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/IBase/common_base/BaseView.java_SELECTED" value="BaseView" />
+    <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/attach_albom/AttachAlbumView.java_SELECTED" value="AttachAlbumView" />
     <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/attach_provider/AttachProviderView.java_SELECTED" value="AttachProviderView" />
     <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/chat_list/ChatListView.java_SELECTED" value="ChatListView" />
+    <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/chat_message/MessageView.java_SELECTED" value="MessageView" />
     <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsView.java_SELECTED" value="ConfigsView" />
     <property name="android-custom-viewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/task/TaskView.java_SELECTED" value="TaskView" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../khalili/realmproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-previewC:/Users/Farokhi/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.2.0/3e159bfab49c7e6495fe374e6e5e1e989ee21dcf/recyclerview-1.2.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/IBase/common_base/BaseView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/attach_albom/AttachAlbumView.java_selected" value="Custom views" />
@@ -178,8 +202,10 @@
     <property name="multi-representation-previewD:/android/project/ERP/app/src/main/java/ir/fararayaneh/erp/activities/warehouse_handling/WarehouseHandlingView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP/searchLibrary/src/main/java/com/mancj/materialsearchbar/MaterialSearchBar.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/IBase/common_base/BaseView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/attach_albom/AttachAlbumView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/attach_provider/AttachProviderView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/chat_list/ChatListView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/chat_message/MessageView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/configs/ConfigsView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/android/project/ERP_2021/app/src/main/java/ir/fararayaneh/erp/activities/task/TaskView.java_selected" value="Custom views" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
@@ -270,13 +296,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581314724708</updated>
-    </task>
-    <task id="LOCAL-00021" summary="add chatRoomGUID to body of MessageEditModel">
-      <created>1597647461355</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1597647461355</updated>
     </task>
     <task id="LOCAL-00022" summary="add foregroundService for location">
       <created>1597678276585</created>
@@ -614,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626591134657</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="change intent manner with try/catch">
+      <created>1626622648587</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1626622648589</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -686,10 +712,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="763" y="244" key="AndroidCreateXmlResourceDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1620223520098" />
-    <state x="364" y="5" key="CommitChangelistDialog2" timestamp="1626591132428">
+    <state x="382" y="20" key="CommitChangelistDialog2" timestamp="1626622644688">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="364" y="5" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1626591132428" />
+    <state x="382" y="20" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1626622644688" />
     <state x="2269" y="0" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623935943282" />
     <state width="585" height="582" key="DebuggerActiveHint" timestamp="1623934103552">
       <screen x="1920" y="0" width="1920" height="1050" />
@@ -728,15 +754,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="623" height="607" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619357869370" />
-    <state x="349" y="114" key="Vcs.Push.Dialog.v2" timestamp="1626591280764">
+    <state x="349" y="114" key="Vcs.Push.Dialog.v2" timestamp="1626622661193">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="349" y="114" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1626591280764" />
+    <state x="349" y="114" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1626622661193" />
     <state x="2269" y="114" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1623935982770" />
-    <state x="532" y="-1" width="840" height="1032" key="search.everywhere.popup" timestamp="1626618165661">
+    <state x="532" y="-1" width="840" height="1032" key="search.everywhere.popup" timestamp="1626706502673">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="532" y="-1" width="840" height="1032" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1626618165661" />
+    <state x="532" y="-1" width="840" height="1032" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1626706502673" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
