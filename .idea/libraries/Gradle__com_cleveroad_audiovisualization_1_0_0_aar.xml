@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6867eaf0b87b12b4c46fd6f635fa7793/jetified-audiovisualization-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6867eaf0b87b12b4c46fd6f635fa7793/jetified-audiovisualization-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6867eaf0b87b12b4c46fd6f635fa7793/jetified-audiovisualization-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/046e3c88907e507c7960b5b90b363d05/jetified-audiovisualization-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/046e3c88907e507c7960b5b90b363d05/jetified-audiovisualization-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/046e3c88907e507c7960b5b90b363d05/jetified-audiovisualization-1.0.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cleveroad/audiovisualization/1.0.0/aea993891f375a67b2af34cce11096364ffe161b/audiovisualization-1.0.0-javadoc.jar!/" />

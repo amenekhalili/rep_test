@@ -2,11 +2,15 @@
   <library name="Gradle: com.flipboard:bottomsheet-commons:1.5.3@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e38fae6e8e46af78f1ae094876c1ff1b/jetified-bottomsheet-commons-1.5.3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe388e79efd2b41e0c00287d438efac9/jetified-bottomsheet-commons-1.5.3/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e38fae6e8e46af78f1ae094876c1ff1b/jetified-bottomsheet-commons-1.5.3/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e38fae6e8e46af78f1ae094876c1ff1b/jetified-bottomsheet-commons-1.5.3/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e38fae6e8e46af78f1ae094876c1ff1b/jetified-bottomsheet-commons-1.5.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe388e79efd2b41e0c00287d438efac9/jetified-bottomsheet-commons-1.5.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe388e79efd2b41e0c00287d438efac9/jetified-bottomsheet-commons-1.5.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe388e79efd2b41e0c00287d438efac9/jetified-bottomsheet-commons-1.5.3/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.flipboard/bottomsheet-commons/1.5.3/3827df9cae8d7ebdc931491712e4f090069d7fe3/bottomsheet-commons-1.5.3-javadoc.jar!/" />

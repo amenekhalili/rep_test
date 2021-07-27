@@ -274,7 +274,7 @@ public class SplashPresenter extends BasePresenter<SplashView> {
 
                 @Override
                 public void cancle() {
-                    CallIntentHandler.handler(context, Commons.SUPPORT_PHONE_CALLS);
+                    CallIntentHandler.handler(getView().getActivity(), Commons.SUPPORT_PHONE_CALLS);
                     if (checkNull()) {
                         getView().finish();
                     }

@@ -6,6 +6,8 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/77de17b1d23e5628982f7a2d45a6cb7a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.1.0/a3ddd1911f2911de0d6d090f83e0f3441d398f6e/lifecycle-process-2.1.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

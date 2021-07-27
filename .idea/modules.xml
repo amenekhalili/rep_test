@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ERP_2021.iml" filepath="$PROJECT_DIR$/.idea/modules/ERP_2021.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ERP_2021.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ERP_2021.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/searchLibrary/ERP_2021.searchLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/searchLibrary/ERP_2021.searchLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spinerdialog/ERP_2021.spinerdialog.iml" filepath="$PROJECT_DIR$/.idea/modules/spinerdialog/ERP_2021.spinerdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/erp.iml" filepath="$PROJECT_DIR$/.idea/modules/erp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/erp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/erp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/searchLibrary/erp.searchLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/searchLibrary/erp.searchLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spinerdialog/erp.spinerdialog.iml" filepath="$PROJECT_DIR$/.idea/modules/spinerdialog/erp.spinerdialog.iml" />
     </modules>
   </component>
 </project>

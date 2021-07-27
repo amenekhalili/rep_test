@@ -6,6 +6,8 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25e78d87ec0a72ff83d9f77d0321d218/jetified-core-ktx-1.3.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core-ktx/1.3.2/98b0507bcf3cd12d671bf6dac09262757b60351d/core-ktx-1.3.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -9,6 +9,8 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc4a1e71972ff7ce0805be60ba8ec215/jetified-activity-1.2.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.2.2/90a39fdeb6c8aa134518e9fc089fd2625a0329b0/activity-1.2.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
