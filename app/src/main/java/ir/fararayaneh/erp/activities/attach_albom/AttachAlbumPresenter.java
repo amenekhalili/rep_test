@@ -127,7 +127,8 @@ public class AttachAlbumPresenter extends BasePresenterWithRecycle<AttachAlbumVi
             @Override
             public void clickRowToShowByIntent(int position) {
                 if (attachNameList.size() >= position) {
-                    FileIntentHandler.openExistFile(context, FileToUriHelper.getUri(CreateFolderFileHandler.createFile(CommonsDownloadFile.DOWNLOAD_FILE_FOLDER_NAME, attachNameList.get(position)), context));
+                    FileIntentHandler.openExistFile(context, FileToUriHelper.getUri(CreateFolderFileHandler.createFile
+                            (CommonsDownloadFile.DOWNLOAD_FILE_FOLDER_NAME, attachNameList.get(position)), context));
                 }
             }
 
