@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/erp.iml" filepath="$PROJECT_DIR$/.idea/modules/erp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/erp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/erp.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/searchLibrary/erp.searchLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/searchLibrary/erp.searchLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spinerdialog/erp.spinerdialog.iml" filepath="$PROJECT_DIR$/.idea/modules/spinerdialog/erp.spinerdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rep_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rep_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/rep_test.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/rep_test.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/searchLibrary/rep_test.searchLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/searchLibrary/rep_test.searchLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spinerdialog/rep_test.spinerdialog.iml" filepath="$PROJECT_DIR$/.idea/modules/spinerdialog/rep_test.spinerdialog.iml" />
     </modules>
   </component>
 </project>
